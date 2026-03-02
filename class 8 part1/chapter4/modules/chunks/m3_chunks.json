@@ -1,0 +1,176 @@
+{
+  "chapter_title": "ವೇದಕಾಲದ ಸಂಸ್ಕೃತಿ",
+  "module_id": "m3",
+  "module_title": "ಉತ್ತರ ವೇದಕಾಲ: ಸಾಮಾಜಿಕ ಮತ್ತು ರಾಜಕೀಯ ಪರಿವರ್ತನೆಗಳು",
+  "target_exam": "GPSTR",
+  "chunks": [
+    {
+      "chunk_id": "m3_c1",
+      "order": 1,
+      "chunk_type": "intro",
+      "script": "ಉತ್ತರ ವೇದಕಾಲದಲ್ಲಿ, ಅಂದರೆ ಸುಮಾರು ಕ್ರಿಸ್ತ ಪೂರ್ವ ಒಂದು ಸಾವಿರದಿಂದ ಆರು ನೂರರ ಅವಧಿಯಲ್ಲಿ, ಆರ್ಯರ ಜೀವನ ಕ್ರಮದಲ್ಲಿ ಮಹತ್ವದ ಬದಲಾವಣೆಗಳು ಸಂಭವಿಸಿದವು. ಅವರು ಗಂಗಾ-ಯಮುನಾ ಬಯಲಿಗೆ ವಲಸೆ ಹೋಗಿ, ಸ್ಥಿರ ಕೃಷಿ ಸಮಾಜವನ್ನು ರೂಪಿಸಿಕೊಂಡರು. ಈ ಬೆಳವಣಿಗೆಯು ರಾಜಕೀಯ ಮತ್ತು ಸಾಮಾಜಿಕ ರಚನೆಗಳಲ್ಲಿ ಆಮೂಲಾಗ್ರ ಪರಿವರ್ತನೆಗೆ ಕಾರಣವಾಯಿತು.",
+      "display": {
+        "title": "ಉತ್ತರ ವೇದಕಾಲದ ಪರಿಚಯ",
+        "markdown": "ಉತ್ತರ ವೇದಕಾಲದಲ್ಲಿ ಮಹತ್ವದ ಬದಲಾವಣೆಗಳು ಸಂಭವಿಸಿದವು.\nಅವರು ಗಂಗಾ-ಯಮುನಾ ಬಯಲಿಗೆ ವಲಸೆ ಹೋಗಿದರು.\nಸ್ಥಿರ ಕೃಷಿ ಸಮಾಜ ರೂಪುಗೊಂಡಿತು.\nರಾಜಕೀಯ ಮತ್ತು ಸಾಮಾಜಿಕ ರಚನೆಗಳಲ್ಲಿ ಆಮೂಲಾಗ್ರ ಪರಿವರ್ತನೆ.",
+        "equations": []
+      },
+      "visual": {
+        "type": "none",
+        "alt_text": "",
+        "detailed_description": "",
+        "future_asset_id": ""
+      },
+      "layout": "left_text_only",
+      "animation": {
+        "pause_after": 0.5
+      }
+    },
+    {
+      "chunk_id": "m3_c2",
+      "order": 2,
+      "chunk_type": "concept_explanation",
+      "script": "ರಾಜಕೀಯ ಬದಲಾವಣೆಗಳನ್ನು ನೋಡುವುದಾದರೆ, ರಾಜನು ಹೆಚ್ಚು ಶಕ್ತಿಶಾಲಿಯಾದನು ಮತ್ತು ರಾಜಪದವು ವಂಶಪಾರಂಪರ್ಯವಾಯಿತು. ತಮ್ಮ ಸಾರ್ವಭೌಮತ್ವವನ್ನು ಸ್ಥಾಪಿಸಲು ಮತ್ತು ರಾಜ್ಯವನ್ನು ವಿಸ್ತರಿಸಲು, ರಾಜರು ಅಶ್ವಮೇಧ ಮತ್ತು ರಾಜಸೂಯದಂತಹ ಬೃಹತ್ ಯಾಗಗಳನ್ನು ನಡೆಸಲು ಆರಂಭಿಸಿದರು. ಇದೇ ಸಮಯದಲ್ಲಿ, ಹಿಂದಿನ ಕಾಲದ ಪ್ರಮುಖ ಸಭೆಗಳಾಗಿದ್ದ ಸಭಾ ಮತ್ತು ಸಮಿತಿಗಳು ತಮ್ಮ ಪ್ರಾಮುಖ್ಯತೆಯನ್ನು ಕಳೆದುಕೊಂಡವು. ವಿಧಾತ ಎಂಬ ಸಭೆಯು ಸಂಪೂರ್ಣವಾಗಿ ಕಣ್ಮರೆಯಾಯಿತು.",
+      "display": {
+        "title": "ರಾಜಕೀಯ ಬದಲಾವಣೆಗಳು",
+        "markdown": "ರಾಜನು ಹೆಚ್ಚು ಶಕ್ತಿಶಾಲಿಯಾದನು.\nರಾಜಪದವು ವಂಶಪಾರಂಪರ್ಯವಾಯಿತು.\nಅಶ್ವಮೇಧ ಮತ್ತು ರಾಜಸೂಯ ಯಾಗಗಳು ಪ್ರಾರಂಭ.\nಸಭಾ ಮತ್ತು ಸಮಿತಿಗಳು ಪ್ರಾಮುಖ್ಯತೆಯನ್ನು ಕಳೆದುಕೊಂಡವು.",
+        "equations": []
+      },
+      "visual": {
+        "type": "placeholder",
+        "alt_text": "ಉತ್ತರ ವೇದಕಾಲದ ರಾಜಕೀಯ ಬದಲಾವಣೆಗಳ ಹಿರಾರ್ಕಿ",
+        "detailed_description": "Hierarchy diagram showing: 1. Increased power of king (top), 2. Hereditary monarchy, 3. Performance of Ashwamedha and Rajasuya sacrifices, 4. Decline of Sabha and Samiti, 5. Disappearance of Vidhata.",
+        "future_asset_id": ""
+      },
+      "layout": "left_text_right_visual",
+      "animation": {
+        "pause_after": 0.5
+      }
+    },
+    {
+      "chunk_id": "m3_c3",
+      "order": 3,
+      "chunk_type": "concept_explanation",
+      "script": "ಸಾಮಾಜಿಕವಾಗಿಯೂ ಮಹತ್ವದ ಬದಲಾವಣೆಗಳು ಕಂಡುಬಂದವು. ಸಮಾಜವು ನಾಲ್ಕು ವರ್ಣಗಳಾಗಿ ವಿಭಜನೆಗೊಂಡಿತು. ಅವುಗಳೆಂದರೆ, ಪುರೋಹಿತರು ಮತ್ತು ಶಿಕ್ಷಕರಾದ ಬ್ರಾಹ್ಮಣರು, ಯೋಧರು ಮತ್ತು ಆಡಳಿತಗಾರರಾದ ಕ್ಷತ್ರಿಯರು, ವ್ಯಾಪಾರಿಗಳು ಮತ್ತು ಕೃಷಿಕರಾದ ವೈಶ್ಯರು, ಹಾಗೂ ಸೇವಕರಾದ ಶೂದ್ರರು. ಈ ವರ್ಣ ವ್ಯವಸ್ಥೆಯು ಜನ್ಮದಧಾರಿತ ಮತ್ತು ಕಠಿಣ ವ್ಯವಸ್ಥೆಯಾಗಿ ಮಾರ್ಪಟ್ಟಿತು.",
+      "display": {
+        "title": "ಸಾಮಾಜಿಕ ಬದಲಾವಣೆಗಳು",
+        "markdown": "ಸಮಾಜವು ನಾಲ್ಕು ವರ್ಣಗಳಾಗಿ ವಿಭಜನೆಗೊಂಡಿತು.\nಬ್ರಾಹ್ಮಣರು, ಕ್ಷತ್ರಿಯರು, ವೈಶ್ಯರು, ಶೂದ್ರರು.\nವರ್ಣ ವ್ಯವಸ್ಥೆ ಜನ್ಮದಧಾರಿತ ಮತ್ತು ಕಠಿಣ.\nಸಾಮಾಜಿಕ ಬದಲಾವಣೆಗಳು ಮಹತ್ವದವು.",
+        "equations": []
+      },
+      "visual": {
+        "type": "placeholder",
+        "alt_text": "ವರ್ಣ ವ್ಯವಸ್ಥೆಯ ವರ್ಗೀಕರಣ",
+        "detailed_description": "Classification chart showing four varnas: 1. Brahmins (priests, teachers), 2. Kshatriyas (warriors, rulers), 3. Vaishyas (traders, agriculturists), 4. Shudras (servants). Arrows indicate birth-based and rigid structure.",
+        "future_asset_id": ""
+      },
+      "layout": "left_text_right_visual",
+      "animation": {
+        "pause_after": 0.5
+      }
+    },
+    {
+      "chunk_id": "m3_c4",
+      "order": 4,
+      "chunk_type": "concept_explanation",
+      "script": "ಇದೇ ಕಾಲದಲ್ಲಿ ಆಶ್ರಮ ವ್ಯವಸ್ಥೆಯು ಸಹ ರೂಪುಗೊಂಡಿತು. ಇದರ ಅನ್ವಯ, ಜೀವನವನ್ನು ನಾಲ್ಕು ಹಂತಗಳಾಗಿ ವಿಂಗಡಿಸಲಾಯಿತು. ಮೊದಲನೆಯದು ಬ್ರಹ್ಮಚರ್ಯ, ಅಂದರೆ ಗುರುಕುಲದಲ್ಲಿ ವಿದ್ಯೆ ಕಲಿಯುವ ವಿದ್ಯಾರ್ಥಿ ಜೀವನ. ಎರಡನೆಯದು ಗೃಹಸ್ಥ, ಅಂದರೆ ಪತ್ನಿ ಮತ್ತು ಮಕ್ಕಳೊಂದಿಗೆ ನಡೆಸುವ ಸಾಂಸಾರಿಕ ಜೀವನ. ಮೂರನೆಯದು ವಾನಪ್ರಸ್ಥ, ಇದು ಸಂಸಾರವನ್ನು ತೊರೆದು ಅರಣ್ಯದಲ್ಲಿ ತಪಸ್ಸು ಮಾಡುವ ಜೀವನ. ನಾಲ್ಕನೆಯ ಹಾಗೂ ಅಂತಿಮ ಹಂತ ಸನ್ಯಾಸ. ಇದರಲ್ಲಿ ಎಲ್ಲವನ್ನೂ ತ್ಯಜಿಸಿ ಮೋಕ್ಷಕ್ಕಾಗಿ ಶ್ರಮಿಸಲಾಗುತ್ತದೆ.",
+      "display": {
+        "title": "ಆಶ್ರಮ ವ್ಯವಸ್ಥೆ",
+        "markdown": "ಆಶ್ರಮ ವ್ಯವಸ್ಥೆ ರೂಪುಗೊಂಡಿತು.\nನಾಲ್ಕು ಹಂತಗಳು: ಬ್ರಹ್ಮಚರ್ಯ, ಗೃಹಸ್ಥ, ವಾನಪ್ರಸ್ಥ, ಸನ್ಯಾಸ.\nಪ್ರತಿ ಹಂತದ ಜೀವನದ ಲಕ್ಷಣಗಳು.\nಮೋಕ್ಷಕ್ಕಾಗಿ ಶ್ರಮ.",
+        "equations": []
+      },
+      "visual": {
+        "type": "placeholder",
+        "alt_text": "ಆಶ್ರಮ ವ್ಯವಸ್ಥೆಯ ಹಂತಗಳು",
+        "detailed_description": "Flow diagram showing four ashramas in sequence: 1. Brahmacharya (student life), 2. Grihastha (householder), 3. Vanaprastha (forest dweller), 4. Sannyasa (renunciation). Arrows indicate progression.",
+        "future_asset_id": ""
+      },
+      "layout": "left_text_right_visual",
+      "animation": {
+        "pause_after": 0.5
+      }
+    },
+    {
+      "chunk_id": "m3_c5",
+      "order": 5,
+      "chunk_type": "concept_explanation",
+      "script": "ಆದರೆ, ಈ ಕಾಲದಲ್ಲಿ ಸ್ತ್ರೀಯರ ಸ್ಥಾನಮಾನದಲ್ಲಿ ಕುಸಿತ ಕಂಡುಬಂತು. ಮಹಿಳೆಯರು ಶಿಕ್ಷಣ ಮತ್ತು ರಾಜಕೀಯ ಹಕ್ಕುಗಳಿಂದ ವಂಚಿತರಾದರು ಮತ್ತು ಸಾರ್ವಜನಿಕ ಜೀವನದಲ್ಲಿ ಅವರ ಪಾತ್ರ ಸೀಮಿತವಾಯಿತು. ಬಾಲ್ಯ ವಿವಾಹ ಮತ್ತು ಸತಿಸಹಗಮನ ಪದ್ಧತಿಗಳಂತಹ ದುಷ್ಟ ಪದ್ಧತಿಗಳು ಆರಂಭವಾದವು. ಉನ್ನತ ವರ್ಗಗಳಲ್ಲಿ ಬಹುಪತ್ನಿತ್ವವು ಸಾಮಾನ್ಯವಾಯಿತು. ಇದಲ್ಲದೆ, ಒಂದೇ ಪೂರ್ವಜ ವಂಶಕ್ಕೆ ಸೇರಿದವರನ್ನು ಗುರುತಿಸುವ ಗೋತ್ರ ಪದ್ಧತಿಯು ಸಹ ಇದೇ ಸಮಯದಲ್ಲಿ ಆರಂಭವಾಯಿತು.",
+      "display": {
+        "title": "ಸ್ತ್ರೀಯರ ಸ್ಥಾನಮಾನ ಮತ್ತು ಪದ್ಧತಿಗಳು",
+        "markdown": "ಸ್ತ್ರೀಯರ ಸ್ಥಾನಮಾನ ಕುಸಿತ ಕಂಡಿತು.\nಮಹಿಳೆಯರು ಶಿಕ್ಷಣ ಮತ್ತು ರಾಜಕೀಯ ಹಕ್ಕುಗಳಿಂದ ವಂಚಿತರಾದರು.\nಬಾಲ್ಯ ವಿವಾಹ, ಸತಿಸಹಗಮನ ಪದ್ಧತಿಗಳು ಆರಂಭ.\nಗೋತ್ರ ಪದ್ಧತಿ ಆರಂಭವಾಯಿತು.",
+        "equations": []
+      },
+      "visual": {
+        "type": "none",
+        "alt_text": "",
+        "detailed_description": "",
+        "future_asset_id": ""
+      },
+      "layout": "left_text_only",
+      "animation": {
+        "pause_after": 0.5
+      }
+    },
+    {
+      "chunk_id": "m3_c6",
+      "order": 6,
+      "chunk_type": "event_analysis",
+      "script": "ಉದಾಹರಣೆಗೆ, ರಾಜನು ನಡೆಸುತ್ತಿದ್ದ ಅಶ್ವಮೇಧ ಯಾಗವು ಅವನ ಹೆಚ್ಚಿದ ಅಧಿಕಾರಕ್ಕೆ ಸಂಕೇತವಾಗಿತ್ತು. ಈ ಯಾಗದಲ್ಲಿ, ರಾಜನ ಕುದುರೆಯು ಅಡೆತಡೆಯಿಲ್ಲದೆ ಸಂಚರಿಸಿದ ಎಲ್ಲಾ ಪ್ರದೇಶಗಳ ಮೇಲೆ ಆ ರಾಜನು ತನ್ನ ಸಾರ್ವಭೌಮತ್ವವನ್ನು ಸ್ಥಾಪಿಸುತ್ತಿದ್ದನು. ಇದು ಅವನ ರಾಜ್ಯ ವಿಸ್ತರಣೆಯ ಆಕಾಂಕ್ಷೆಯನ್ನು ಸ್ಪಷ್ಟಪಡಿಸುತ್ತಿತ್ತು.",
+      "display": {
+        "title": "ಅಶ್ವಮೇಧ ಯಾಗದ ಮಹತ್ವ",
+        "markdown": "ಅಶ್ವಮೇಧ ಯಾಗವು ರಾಜನ ಹೆಚ್ಚಿದ ಅಧಿಕಾರಕ್ಕೆ ಸಂಕೇತ.\nಕುದುರೆಯು ಅಡೆತಡೆಯಿಲ್ಲದೆ ಸಂಚರಿಸಿದ ಪ್ರದೇಶಗಳ ಮೇಲೆ ಸಾರ್ವಭೌಮತ್ವ.\nರಾಜ್ಯ ವಿಸ್ತರಣೆಯ ಆಕಾಂಕ್ಷೆ ಸ್ಪಷ್ಟ.",
+        "equations": []
+      },
+      "visual": {
+        "type": "placeholder",
+        "alt_text": "ಅಶ್ವಮೇಧ ಯಾಗದ ಪ್ರಕ್ರಿಯೆ",
+        "detailed_description": "Flow diagram showing: 1. King performs Ashwamedha, 2. Horse moves freely, 3. All traversed regions come under king's sovereignty, 4. Symbolizes expansion ambition.",
+        "future_asset_id": ""
+      },
+      "layout": "left_text_right_visual",
+      "animation": {
+        "pause_after": 0.5
+      }
+    },
+    {
+      "chunk_id": "m3_c7",
+      "order": 7,
+      "chunk_type": "cause_effect",
+      "script": "ಈ ಎಲ್ಲಾ ಪರಿವರ್ತನೆಗಳ ಮೂಲ ಕಾರಣವನ್ನು ವಿಶ್ಲೇಷಿಸಿದಾಗ, ಪಶುಪಾಲನೆಯಿಂದ ಸ್ಥಿರ ಕೃಷಿ ಜೀವನಕ್ಕೆ ಆದ ಬದಲಾವಣೆಯೇ ಮುಖ್ಯವಾಗಿ ಕಾಣುತ್ತದೆ. ಭೂಮಿಯ ಒಡೆತನವು ಮುಖ್ಯವಾದಂತೆ, ಪ್ರಾದೇಶಿಕ ರಾಜ್ಯಗಳು ರೂಪುಗೊಂಡವು ಮತ್ತು ರಾಜನ ಅಧಿಕಾರ ಹೆಚ್ಚಾಯಿತು. ಕೃಷಿಯಲ್ಲಿನ ಹೆಚ್ಚುವರಿ ಉತ್ಪಾದನೆಯು ಸಮಾಜದಲ್ಲಿ ಶ್ರಮ ವಿಭಜನೆಗೆ ಕಾರಣವಾಯಿತು. ಇದೇ ಶ್ರಮ ವಿಭಜನೆಯು ಕಾಲಕ್ರಮೇಣ ಕಠಿಣವಾದ ವರ್ಣ ವ್ಯವಸ್ಥೆಯಾಗಿ ಮಾರ್ಪಟ್ಟಿತು.",
+      "display": {
+        "title": "ಪರಿವರ್ತನೆಗಳ ಮೂಲ ಕಾರಣ",
+        "markdown": "ಪಶುಪಾಲನೆಯಿಂದ ಸ್ಥಿರ ಕೃಷಿಗೆ ಬದಲಾವಣೆ.\nಭೂಮಿಯ ಒಡೆತನ ಮುಖ್ಯವಾದುದು.\nಶ್ರಮ ವಿಭಜನೆ ಹೆಚ್ಚಳ.\nವರ್ಣ ವ್ಯವಸ್ಥೆ ಕಠಿಣವಾಗುವುದು.",
+        "equations": []
+      },
+      "visual": {
+        "type": "placeholder",
+        "alt_text": "ಪರಿವರ್ತನೆಗಳ ಕಾರಣ ಮತ್ತು ಪರಿಣಾಮ",
+        "detailed_description": "Cause-effect diagram: 1. Change from pastoralism to settled agriculture leads to land ownership, 2. Emergence of regional states, 3. Increased royal power, 4. Agricultural surplus causes division of labor, 5. Rigid varna system develops.",
+        "future_asset_id": ""
+      },
+      "layout": "left_text_right_visual",
+      "animation": {
+        "pause_after": 0.5
+      }
+    },
+    {
+      "chunk_id": "m3_c8",
+      "order": 8,
+      "chunk_type": "recap",
+      "script": "ಕೊನೆಯದಾಗಿ, ಉತ್ತರ ವೇದಕಾಲದಲ್ಲಿ ಸ್ಥಾಪಿತವಾದ ವರ್ಣ ಮತ್ತು ಆಶ್ರಮ ವ್ಯವಸ್ಥೆಗಳು, ಮುಂದಿನ ಸಾವಿರಾರು ವರ್ಷಗಳ ಕಾಲ ಭಾರತೀಯ ಸಮಾಜದ ರಚನೆ ಮತ್ತು ಕಾರ್ಯನಿರ್ವಹಣೆಯ ಮೇಲೆ ಆಳವಾದ ಪ್ರಭಾವವನ್ನು ಬೀರಿದವು. ಈ ಕಾಲದ ರಾಜಕೀಯ ಬದಲಾವಣೆಗಳು, ಮುಂದೆ ಭಾರತದಲ್ಲಿ ಮಹಾಜನಪದಗಳ ಉದಯಕ್ಕೆ ಒಂದು ಭದ್ರವಾದ ವೇದಿಕೆಯನ್ನು ಕಲ್ಪಿಸಿದವು.",
+      "display": {
+        "title": "ಸಾರಾಂಶ",
+        "markdown": "ವರ್ಣ ಮತ್ತು ಆಶ್ರಮ ವ್ಯವಸ್ಥೆಗಳು ಭಾರತೀಯ ಸಮಾಜದ ಮೇಲೆ ಆಳವಾದ ಪ್ರಭಾವ.\nರಾಜಕೀಯ ಬದಲಾವಣೆಗಳು ಮಹಾಜನಪದಗಳ ಉದಯಕ್ಕೆ ವೇದಿಕೆ.\nಉತ್ತರ ವೇದಕಾಲದ ಪರಿವರ್ತನೆಗಳ ಮಹತ್ವ.",
+        "equations": []
+      },
+      "visual": {
+        "type": "none",
+        "alt_text": "",
+        "detailed_description": "",
+        "future_asset_id": ""
+      },
+      "layout": "left_text_only",
+      "animation": {
+        "pause_after": 0.5
+      }
+    }
+  ]
+}

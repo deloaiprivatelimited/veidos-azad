@@ -1,0 +1,123 @@
+[
+  {
+    "file": "class 8 part1\\chapter10\\modules\\chunks\\audio\\m3\\seg_0.wav",
+    "start": 0,
+    "end": 17.68,
+    "duration": 17.68,
+    "display": {
+      "title": "ನಕ್ಷೆಯ ಮೂಲಾಂಶಗಳ ಪರಿಚಯ",
+      "markdown": "ಐದು ಮೂಲಭೂತ ಅಂಶಗಳು\nನಕ್ಷೆಯ ಭಾಷೆಯ ವ್ಯಾಕರಣ\nಅಂಶಗಳಿಲ್ಲದೆ ನಕ್ಷೆ ಚಿತ್ರ ಮಾತ್ರ",
+      "equations": []
+    }
+  },
+  {
+    "file": "class 8 part1\\chapter10\\modules\\chunks\\audio\\m3\\seg_1.wav",
+    "start": 18.08,
+    "end": 21.09,
+    "duration": 3.01,
+    "display": {
+      "title": "ನಕ್ಷೆಯ ಐದು ಪ್ರಮುಖ ಮೂಲಾಂಶಗಳು",
+      "markdown": "ಐದು ಪ್ರಮುಖ ಮೂಲಾಂಶಗಳು",
+      "equations": []
+    }
+  },
+  {
+    "file": "class 8 part1\\chapter10\\modules\\chunks\\audio\\m3\\seg_2.wav",
+    "start": 21.49,
+    "end": 34.08,
+    "duration": 12.59,
+    "display": {
+      "title": "ಶೀರ್ಷಿಕೆ",
+      "markdown": "ಶೀರ್ಷಿಕೆ\nವಿಷಯ ಅಥವಾ ಪ್ರದೇಶ ಸ್ಪಷ್ಟತೆ\nಉದಾಹರಣೆ: ಕರ್ನಾಟಕ - ನೈಸರ್ಗಿಕ ಸಸ್ಯವರ್ಗ",
+      "equations": []
+    }
+  },
+  {
+    "file": "class 8 part1\\chapter10\\modules\\chunks\\audio\\m3\\seg_3.wav",
+    "start": 34.48,
+    "end": 52.96,
+    "duration": 18.49,
+    "display": {
+      "title": "ಮಾನಕ",
+      "markdown": "ಮಾನಕ\nನಕ್ಷೆ ಮತ್ತು ನೈಜ ಅಂತರದ ಅನುಪಾತ\nಹೇಳಿಕೆ, ರೇಖಾತ್ಮಕ ಅಥವಾ ರೆಪ್ರೆಸೆಂಟೇಟಿವ್ ಫ್ರ್ಯಾಕ್ಷನ್",
+      "equations": []
+    }
+  },
+  {
+    "file": "class 8 part1\\chapter10\\modules\\chunks\\audio\\m3\\seg_4.wav",
+    "start": 53.36,
+    "end": 76.41,
+    "duration": 23.04,
+    "display": {
+      "title": "ದಿಕ್ಕು",
+      "markdown": "ದಿಕ್ಕು\nಉತ್ತರ ದಿಕ್ಕಿಗೆ ಬಾಣದ ಗುರುತು\n'ಎನ್' ಅಥವಾ 'ಉ' ಬಳಕೆ\nಉಳಿದ ದಿಕ್ಕುಗಳ ನಿರ್ಧಾರ",
+      "equations": []
+    }
+  },
+  {
+    "file": "class 8 part1\\chapter10\\modules\\chunks\\audio\\m3\\seg_5.wav",
+    "start": 76.81,
+    "end": 89.46,
+    "duration": 12.66,
+    "display": {
+      "title": "ಅಕ್ಷಾಂಶ ಮತ್ತು ರೇಖಾಂಶಗಳ ಜಾಲ",
+      "markdown": "ಅಕ್ಷಾಂಶ ಮತ್ತು ರೇಖಾಂಶಗಳ ಜಾಲ\nನಿಖರ ಭೌಗೋಳಿಕ ಸ್ಥಾನ ನಿರ್ಧಾರ\nಕಾಲ್ಪನಿಕ ರೇಖೆಗಳ ಜಾಲ",
+      "equations": []
+    }
+  },
+  {
+    "file": "class 8 part1\\chapter10\\modules\\chunks\\audio\\m3\\seg_6.wav",
+    "start": 89.86,
+    "end": 101.25,
+    "duration": 11.38,
+    "display": {
+      "title": "ಸೂಚಿ ಅಥವಾ ಕೈಪಿಡಿ",
+      "markdown": "ಸೂಚಿ ಅಥವಾ ಕೈಪಿಡಿ\nಬಣ್ಣಗಳು, ಚಿಹ್ನೆಗಳು, ಸಂಕೇತಗಳ ವಿವರಣೆ",
+      "equations": []
+    }
+  },
+  {
+    "file": "class 8 part1\\chapter10\\modules\\chunks\\audio\\m3\\seg_7.wav",
+    "start": 101.65,
+    "end": 115.04,
+    "duration": 13.39,
+    "display": {
+      "title": "ಸೂಚಿಯ ಉದಾಹರಣೆ",
+      "markdown": "ನೀಲಿ ಗೆರೆಯು ನದಿ\nಕಂದು ಸಮೋನ್ನತಿ ರೇಖೆಗಳು ಎತ್ತರ\nಕೆಂಪು ಗೆರೆಗಳು ರಸ್ತೆ",
+      "equations": []
+    }
+  },
+  {
+    "file": "class 8 part1\\chapter10\\modules\\chunks\\audio\\m3\\seg_8.wav",
+    "start": 115.44,
+    "end": 141.83,
+    "duration": 26.39,
+    "display": {
+      "title": "ಐದು ಅಂಶಗಳ ಪರಸ್ಪರ ಸಂಬಂಧ",
+      "markdown": "ಐದು ಅಂಶಗಳ ಪರಸ್ಪರ ಸಂಬಂಧ\nಶೀರ್ಷಿಕೆ: ಉದ್ದೇಶ\nಮಾನಕ: ದೂರ\nದಿಕ್ಕು: ದೃಷ್ಟಿಕೋನ\nಅಕ್ಷಾಂಶ-ರೇಖಾಂಶ: ಸ್ಥಾನ\nಸೂಚಿ: ಲಕ್ಷಣಗಳ ಅರ್ಥ",
+      "equations": []
+    }
+  },
+  {
+    "file": "class 8 part1\\chapter10\\modules\\chunks\\audio\\m3\\seg_9.wav",
+    "start": 142.23,
+    "end": 159.51,
+    "duration": 17.28,
+    "display": {
+      "title": "ನಕ್ಷೆಯ ಮೂಲಾಂಶಗಳ ಸಾರ್ವತ್ರಿಕತೆ",
+      "markdown": "ಮೂಲಾಂಶಗಳು ಸಾರ್ವತ್ರಿಕ\nಯಾವುದೇ ದೇಶ ಅಥವಾ ಭಾಷೆಗೆ ಅನ್ವಯ\nಜಾಗತಿಕ ಗುಣಮಟ್ಟ ಕಾಪಾಡಲು ಸಹಾಯ",
+      "equations": []
+    }
+  },
+  {
+    "file": "class 8 part1\\chapter10\\modules\\chunks\\audio\\m3\\seg_10.wav",
+    "start": 159.91,
+    "end": 174.51,
+    "duration": 14.6,
+    "display": {
+      "title": "ಪುನಶ್ಚರಣೆ",
+      "markdown": "ಐದು ಮೂಲಾಂಶಗಳು: ಶೀರ್ಷಿಕೆ, ಮಾನಕ, ದಿಕ್ಕು, ಅಕ್ಷಾಂಶ-ರೇಖಾಂಶಗಳ ಜಾಲ, ಸೂಚಿ\nಪರಸ್ಪರ ಸಂಬಂಧ\nನಕ್ಷೆ ಓದುವಿಕೆ ಮತ್ತು ವ್ಯಾಖ್ಯಾನಕ್ಕೆ ಅಡಿಪಾಯ",
+      "equations": []
+    }
+  }
+]

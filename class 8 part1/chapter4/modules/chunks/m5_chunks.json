@@ -1,0 +1,197 @@
+{
+  "chapter_title": "ವೇದಕಾಲದ ಸಂಸ್ಕೃತಿ",
+  "module_id": "m5",
+  "module_title": "ಪೂರ್ವ ಮತ್ತು ಉತ್ತರ ವೇದಕಾಲ: ಒಂದು ತುಲನಾತ್ಮಕ ವಿಶ್ಲೇಷಣೆ",
+  "target_exam": "GPSTR",
+  "chunks": [
+    {
+      "chunk_id": "m5_c1",
+      "order": 1,
+      "chunk_type": "intro",
+      "script": "ಪೂರ್ವ ವೇದಕಾಲ ಮತ್ತು ಉತ್ತರ ವೇದಕಾಲಗಳ ನಡುವೆ ಸಾಮಾಜಿಕ, ರಾಜಕೀಯ, ಆರ್ಥಿಕ ಮತ್ತು ಧಾರ್ಮಿಕ ಕ್ಷೇತ್ರಗಳಲ್ಲಿ ಮಹತ್ತರವಾದ ವ್ಯತ್ಯಾಸಗಳಿವೆ. ಈ ತುಲನಾತ್ಮಕ ಅಧ್ಯಯನವು ವೇದಕಾಲದ ಸಂಸ್ಕೃತಿಯ ವಿಕಾಸವನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳಲು ಸಹಕಾರಿಯಾಗಿದೆ.",
+      "display": {
+        "title": "ಪೂರ್ವ ಮತ್ತು ಉತ್ತರ ವೇದಕಾಲಗಳ ವ್ಯತ್ಯಾಸಗಳು",
+        "markdown": "ಸಾಮಾಜಿಕ, ರಾಜಕೀಯ, ಆರ್ಥಿಕ ಮತ್ತು ಧಾರ್ಮಿಕ ಕ್ಷೇತ್ರಗಳಲ್ಲಿ ವ್ಯತ್ಯಾಸಗಳು\nತುಲನಾತ್ಮಕ ಅಧ್ಯಯನದ ಮಹತ್ವ",
+        "equations": []
+      },
+      "visual": {
+        "type": "none",
+        "alt_text": "",
+        "detailed_description": "",
+        "future_asset_id": ""
+      },
+      "layout": "left_text_only",
+      "animation": {
+        "pause_after": 0.5
+      }
+    },
+    {
+      "chunk_id": "m5_c2",
+      "order": 2,
+      "chunk_type": "structure_explanation",
+      "script": "ಈ ಎರಡು ಕಾಲಘಟ್ಟಗಳ ನಡುವಿನ ಪ್ರಮುಖ ವ್ಯತ್ಯಾಸಗಳನ್ನು ನಾವು ನಾಲ್ಕು ಕ್ಷೇತ್ರಗಳಲ್ಲಿ ಹೋಲಿಸಬಹುದು.",
+      "display": {
+        "title": "ಪ್ರಮುಖ ವ್ಯತ್ಯಾಸಗಳ ಹೋಲಿಕೆ",
+        "markdown": "ನಾಲ್ಕು ಕ್ಷೇತ್ರಗಳಲ್ಲಿ ಹೋಲಿಕೆ: ರಾಜಕೀಯ, ಸಮಾಜ, ಆರ್ಥಿಕತೆ, ಧರ್ಮ",
+        "equations": []
+      },
+      "visual": {
+        "type": "placeholder",
+        "alt_text": "Comparative structure of four domains",
+        "detailed_description": "A table or matrix comparing four domains (ರಾಜಕೀಯ, ಸಮಾಜ, ಆರ್ಥಿಕತೆ, ಧರ್ಮ) between ಪೂರ್ವ ವೇದಕಾಲ and ಉತ್ತರ ವೇದಕಾಲ. Each row represents a domain, columns for each period.",
+        "future_asset_id": ""
+      },
+      "layout": "left_text_right_visual",
+      "animation": {
+        "pause_after": 0.5
+      }
+    },
+    {
+      "chunk_id": "m5_c3",
+      "order": 3,
+      "chunk_type": "concept_explanation",
+      "script": "ಮೊದಲನೆಯದಾಗಿ, ರಾಜಕೀಯ ಕ್ಷೇತ್ರದಲ್ಲಿ, ಪೂರ್ವ ವೇದಕಾಲದಲ್ಲಿ ರಾಜನ ಅಧಿಕಾರವು ಸೀಮಿತವಾಗಿತ್ತು ಮತ್ತು ಅವನನ್ನು ಆಯ್ಕೆ ಮಾಡಲಾಗುತ್ತಿತ್ತು. ಆಗ ಸಭೆಗಳು ಪ್ರಬಲವಾಗಿದ್ದವು. ಆದರೆ ಉತ್ತರ ವೇದಕಾಲದಲ್ಲಿ, ರಾಜನ ಅಧಿಕಾರವು ಅನಿಯಮಿತವಾಯಿತು, ರಾಜಪದವು ವಂಶಪಾರಂಪರ್ಯವಾಗಿ ಬದಲಾಯಿತು ಮತ್ತು ಸಭೆಗಳು ದುರ್ಬಲವಾದವು.",
+      "display": {
+        "title": "ರಾಜಕೀಯ ಕ್ಷೇತ್ರದಲ್ಲಿ ವ್ಯತ್ಯಾಸ",
+        "markdown": "ಪೂರ್ವ ವೇದಕಾಲ: ರಾಜನ ಅಧಿಕಾರ ಸೀಮಿತ, ಆಯ್ಕೆ ಪ್ರಕ್ರಿಯೆ\nಉತ್ತರ ವೇದಕಾಲ: ರಾಜನ ಅಧಿಕಾರ ಅನಿಯಮಿತ, ವಂಶಪಾರಂಪರ್ಯ, ಸಭೆಗಳು ದುರ್ಬಲ",
+        "equations": []
+      },
+      "visual": {
+        "type": "placeholder",
+        "alt_text": "Political structure comparison",
+        "detailed_description": "A two-column comparison chart: one side for ಪೂರ್ವ ವೇದಕಾಲ (limited king's power, strong assemblies), other side for ಉತ್ತರ ವೇದಕಾಲ (unlimited king's power, hereditary monarchy, weak assemblies).",
+        "future_asset_id": ""
+      },
+      "layout": "left_text_right_visual",
+      "animation": {
+        "pause_after": 0.5
+      }
+    },
+    {
+      "chunk_id": "m5_c4",
+      "order": 4,
+      "chunk_type": "concept_explanation",
+      "script": "ಎರಡನೆಯದಾಗಿ, ಸಮಾಜದಲ್ಲಿ, ಪೂರ್ವ ವೇದಕಾಲದಲ್ಲಿ ವರ್ಣವ್ಯವಸ್ಥೆಯು ಸಡಿಲವಾಗಿತ್ತು. ಆದರೆ ಉತ್ತರ ವೇದಕಾಲದಲ್ಲಿ ಅದು ಕಠಿಣವಾಗಿ ಮತ್ತು ಜನ್ಮಾಧಾರಿತವಾಗಿ ಮಾರ್ಪಟ್ಟಿತು. ಪೂರ್ವ ವೇದಕಾಲದಲ್ಲಿ ಸ್ತ್ರೀಯರಿಗೆ ಉತ್ತಮ ಸ್ಥಾನಮಾನವಿತ್ತು, ಆದರೆ ಉತ್ತರ ವೇದಕಾಲದಲ್ಲಿ ಅವರ ಸ್ಥಾನಮಾನದಲ್ಲಿ ಕುಸಿತ ಕಂಡುಬಂದಿತು. ಜೀವನಶೈಲಿಯಲ್ಲೂ ಬದಲಾವಣೆಯಾಯಿತು. ಪೂರ್ವ ವೇದಕಾಲದ ಅಲೆಮಾರಿ ಜೀವನವು, ಉತ್ತರ ವೇದಕಾಲದಲ್ಲಿ ಸ್ಥಿರ ಜೀವನಶೈಲಿಗೆ ಬದಲಾಯಿತು.",
+      "display": {
+        "title": "ಸಾಮಾಜಿಕ ಕ್ಷೇತ್ರದಲ್ಲಿ ವ್ಯತ್ಯಾಸ",
+        "markdown": "ಪೂರ್ವ ವೇದಕಾಲ: ಸಡಿಲ ವರ್ಣವ್ಯವಸ್ಥೆ, ಸ್ತ್ರೀಯರಿಗೆ ಉತ್ತಮ ಸ್ಥಾನಮಾನ, ಅಲೆಮಾರಿ ಜೀವನ\nಉತ್ತರ ವೇದಕಾಲ: ಕಠಿಣ ವರ್ಣವ್ಯವಸ್ಥೆ, ಸ್ತ್ರೀಯರ ಸ್ಥಾನಮಾನ ಕುಸಿತ, ಸ್ಥಿರ ಜೀವನ",
+        "equations": []
+      },
+      "visual": {
+        "type": "placeholder",
+        "alt_text": "Social structure comparison",
+        "detailed_description": "A two-column comparison chart: one side for ಪೂರ್ವ ವೇದಕಾಲ (loose varna system, better status for women, nomadic lifestyle), other side for ಉತ್ತರ ವೇದಕಾಲ (rigid varna system, decline in women's status, settled lifestyle).",
+        "future_asset_id": ""
+      },
+      "layout": "left_text_right_visual",
+      "animation": {
+        "pause_after": 0.5
+      }
+    },
+    {
+      "chunk_id": "m5_c5",
+      "order": 5,
+      "chunk_type": "concept_explanation",
+      "script": "ಮೂರನೆಯದಾಗಿ, ಆರ್ಥಿಕತೆಯಲ್ಲಿ, ಪೂರ್ವ ವೇದಕಾಲದಲ್ಲಿ ಪಶುಪಾಲನೆಯು ಮುಖ್ಯ ಉದ್ಯೋಗವಾಗಿತ್ತು ಮತ್ತು ಹಸುಗಳೇ ಸಂಪತ್ತಿನ ಮೂಲವಾಗಿದ್ದವು. ಆದರೆ ಉತ್ತರ ವೇದಕಾಲದಲ್ಲಿ ಕೃಷಿಯು ಮುಖ್ಯ ಉದ್ಯೋಗವಾಯಿತು ಮತ್ತು ಭೂಮಿಯು ಸಂಪತ್ತಿನ ಮೂಲವೆಂದು ಪರಿಗಣಿಸಲ್ಪಟ್ಟಿತು.",
+      "display": {
+        "title": "ಆರ್ಥಿಕ ಕ್ಷೇತ್ರದಲ್ಲಿ ವ್ಯತ್ಯಾಸ",
+        "markdown": "ಪೂರ್ವ ವೇದಕಾಲ: ಪಶುಪಾಲನೆ ಮುಖ್ಯ, ಹಸುಗಳು ಸಂಪತ್ತಿನ ಮೂಲ\nಉತ್ತರ ವೇದಕಾಲ: ಕೃಷಿ ಮುಖ್ಯ, ಭೂಮಿ ಸಂಪತ್ತಿನ ಮೂಲ",
+        "equations": []
+      },
+      "visual": {
+        "type": "placeholder",
+        "alt_text": "Economic structure comparison",
+        "detailed_description": "A two-column comparison chart: one side for ಪೂರ್ವ ವೇದಕಾಲ (cattle rearing, cattle as wealth), other side for ಉತ್ತರ ವೇದಕಾಲ (agriculture, land as wealth).",
+        "future_asset_id": ""
+      },
+      "layout": "left_text_right_visual",
+      "animation": {
+        "pause_after": 0.5
+      }
+    },
+    {
+      "chunk_id": "m5_c6",
+      "order": 6,
+      "chunk_type": "concept_explanation",
+      "script": "ನಾಲ್ಕನೆಯದಾಗಿ, ಧರ್ಮದಲ್ಲಿ, ಪೂರ್ವ ವೇದಕಾಲದ ಆಚರಣೆಗಳು ಸರಳವಾದ ಯಜ್ಞಗಳನ್ನು ಒಳಗೊಂಡಿದ್ದವು ಮತ್ತು ಪ್ರಕೃತಿ ದೇವತೆಗಳನ್ನು ಪೂಜಿಸಲಾಗುತ್ತಿತ್ತು. ಇದಕ್ಕೆ ವಿರುದ್ಧವಾಗಿ, ಉತ್ತರ ವೇದಕಾಲದಲ್ಲಿ ಯಜ್ಞಗಳು ಹೆಚ್ಚು ಸಂಕೀರ್ಣವಾದವು ಮತ್ತು ತ್ರಿಮೂರ್ತಿಗಳ ಕಲ್ಪನೆಯು ಬೆಳೆಯಿತು.",
+      "display": {
+        "title": "ಧಾರ್ಮಿಕ ಕ್ಷೇತ್ರದಲ್ಲಿ ವ್ಯತ್ಯಾಸ",
+        "markdown": "ಪೂರ್ವ ವೇದಕಾಲ: ಸರಳ ಯಜ್ಞಗಳು, ಪ್ರಕೃತಿ ದೇವತೆಗಳ ಪೂಜೆ\nಉತ್ತರ ವೇದಕಾಲ: ಸಂಕೀರ್ಣ ಯಜ್ಞಗಳು, ತ್ರಿಮೂರ್ತಿಗಳ ಕಲ್ಪನೆ",
+        "equations": []
+      },
+      "visual": {
+        "type": "placeholder",
+        "alt_text": "Religious structure comparison",
+        "detailed_description": "A two-column comparison chart: one side for ಪೂರ್ವ ವೇದಕಾಲ (simple rituals, nature worship), other side for ಉತ್ತರ ವೇದಕಾಲ (complex rituals, concept of Trimurti).",
+        "future_asset_id": ""
+      },
+      "layout": "left_text_right_visual",
+      "animation": {
+        "pause_after": 0.5
+      }
+    },
+    {
+      "chunk_id": "m5_c7",
+      "order": 7,
+      "chunk_type": "cause_effect",
+      "script": "ಈ ಬದಲಾವಣೆಗಳನ್ನು ವಿಶ್ಲೇಷಿಸಿದಾಗ, ಪೂರ್ವ ವೇದಕಾಲದ ಅರೆ-ಅಲೆಮಾರಿ, ಪಶುಪಾಲಕ ಸಮಾಜವು ಉತ್ತರ ವೇದಕಾಲದಲ್ಲಿ ಗಂಗಾ ಬಯಲಿನಲ್ಲಿ ಸ್ಥಿರ, ಕೃಷಿ-ಆಧಾರಿತ ನಾಗರಿಕತೆಯಾಗಿ ಪರಿವರ್ತನೆಗೊಂಡಿತು ಎಂಬುದು ಸ್ಪಷ್ಟವಾಗುತ್ತದೆ. ಈ ಆರ್ಥಿಕ ಬದಲಾವಣೆಯೇ ರಾಜಕೀಯದಲ್ಲಿ ಕೇಂದ್ರೀಕರಣಕ್ಕೆ, ಸಮಾಜದಲ್ಲಿ ಶ್ರೇಣೀಕರಣಕ್ಕೆ ಮತ್ತು ಧರ್ಮದಲ್ಲಿ ಸಂಕೀರ್ಣತೆಗೆ ಕಾರಣವಾಯಿತು. ಸರಳ ಮತ್ತು ಸಮಾನತಾವಾದಿ ಸಮಾಜವು ಹೆಚ್ಚು ಸಂರಚಿತ ಮತ್ತು ಶ್ರೇಣೀಕೃತ ಸಮಾಜವಾಗಿ ಬದಲಾದದ್ದು ಈ ಪರಿವರ್ತನೆಯ ಮುಖ್ಯ ಲಕ್ಷಣವಾಗಿದೆ.",
+      "display": {
+        "title": "ಬದಲಾವಣೆಗಳ ಪರಿಣಾಮ",
+        "markdown": "ಅರೆ-ಅಲೆಮಾರಿ ಪಶುಪಾಲಕ ಸಮಾಜದಿಂದ ಸ್ಥಿರ ಕೃಷಿ-ಆಧಾರಿತ ನಾಗರಿಕತೆ\nಆರ್ಥಿಕ ಬದಲಾವಣೆಗಳಿಂದ ರಾಜಕೀಯ, ಸಾಮಾಜಿಕ, ಧಾರ್ಮಿಕ ಪರಿವರ್ತನೆ",
+        "equations": []
+      },
+      "visual": {
+        "type": "placeholder",
+        "alt_text": "Transformation flow",
+        "detailed_description": "A flow diagram showing the transition from semi-nomadic, pastoral society (ಪೂರ್ವ ವೇದಕಾಲ) to settled, agriculture-based civilization (ಉತ್ತರ ವೇದಕಾಲ), with arrows indicating economic change leading to political centralization, social stratification, and religious complexity.",
+        "future_asset_id": ""
+      },
+      "layout": "left_text_right_visual",
+      "animation": {
+        "pause_after": 0.5
+      }
+    },
+    {
+      "chunk_id": "m5_c8",
+      "order": 8,
+      "chunk_type": "event_analysis",
+      "script": "ಈ ಪರಿವರ್ತನೆಯು ಭಾರತದ ಇತಿಹಾಸದಲ್ಲಿ ಒಂದು ಮಹತ್ವದ ಘಟ್ಟವಾಗಿದೆ. ಉತ್ತರ ವೇದಕಾಲದ ಅಂತ್ಯದಲ್ಲಿ ರೂಪುಗೊಂಡ ರಾಜಕೀಯ ಮತ್ತು ಸಾಮಾಜಿಕ ರಚನೆಗಳು, ಮುಂದಿನ ಮಗಧ ಸಾಮ್ರಾಜ್ಯದಂತಹ ದೊಡ್ಡ ಸಾಮ್ರಾಜ್ಯಗಳ ಉದಯಕ್ಕೆ ಮತ್ತು ಹೊಸ ಧಾರ್ಮಿಕ ಚಳುವಳಿಗಳ ಹುಟ್ಟಿಗೆ ನೇರ ಕಾರಣವಾದವು.",
+      "display": {
+        "title": "ಪರಿವರ್ತನೆಯ ಇತಿಹಾಸಾತ್ಮಕ ಮಹತ್ವ",
+        "markdown": "ಭಾರತದ ಇತಿಹಾಸದಲ್ಲಿ ಮಹತ್ವದ ಘಟ್ಟ\nಮಗಧ ಸಾಮ್ರಾಜ್ಯ ಮತ್ತು ಧಾರ್ಮಿಕ ಚಳುವಳಿಗಳ ಹುಟ್ಟು",
+        "equations": []
+      },
+      "visual": {
+        "type": "none",
+        "alt_text": "",
+        "detailed_description": "",
+        "future_asset_id": ""
+      },
+      "layout": "left_text_only",
+      "animation": {
+        "pause_after": 0.5
+      }
+    },
+    {
+      "chunk_id": "m5_c9",
+      "order": 9,
+      "chunk_type": "recap",
+      "script": "ಈ ಅಧ್ಯಾಯವು ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಭಾರತೀಯ ಸಂಸ್ಕೃತಿಯ ಮೂಲ ಬೇರುಗಳನ್ನು ಪರಿಚಯಿಸುತ್ತದೆ. ಪೂರ್ವ ಮತ್ತು ಉತ್ತರ ವೇದಕಾಲಗಳ ತುಲನಾತ್ಮಕ ಅಧ್ಯಯನದ ಮೂಲಕ, ಐತಿಹಾಸಿಕ ಬದಲಾವಣೆಗಳು ಕೇವಲ ರಾಜಕೀಯ ಘಟನೆಗಳಲ್ಲ, ಬದಲಿಗೆ ಅವು ಸಮಾಜ, ಆರ್ಥಿಕತೆ ಮತ್ತು ಧರ್ಮದ ಮೇಲೆ ಹೇಗೆ ಪರಸ್ಪರ ಪ್ರಭಾವ ಬೀರುತ್ತವೆ ಎಂಬುದನ್ನು ವಿಶ್ಲೇಷಿಸಲು ಕಲಿಯಬಹುದು. ವರ್ಣವ್ಯವಸ್ಥೆ, ಸ್ತ್ರೀಯರ ಸ್ಥಾನಮಾನದಂತಹ ವಿಷಯಗಳ ಐತಿಹಾಸಿಕ ಹಿನ್ನೆಲೆಯನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳುವುದು ವಿಮರ್ಶಾತ್ಮಕ ಚಿಂತನೆಯನ್ನು ಬೆಳೆಸುತ್ತದೆ. ವೇದಗಳು ಮತ್ತು ಮಹಾಕಾವ್ಯಗಳ ಪರಿಚಯವು ಭಾರತದ ಸಾಹಿತ್ಯ ಮತ್ತು ತಾತ್ವಿಕ ಪರಂಪರೆಯ ಬಗ್ಗೆ ಅರಿವು ಮೂಡಿಸುತ್ತದೆ.",
+      "display": {
+        "title": "ಅಧ್ಯಾಯದ ಸಾರಾಂಶ",
+        "markdown": "ಭಾರತೀಯ ಸಂಸ್ಕೃತಿಯ ಮೂಲ ಬೇರುಗಳ ಪರಿಚಯ\nತುಲನಾತ್ಮಕ ಅಧ್ಯಯನದಿಂದ ಐತಿಹಾಸಿಕ ಬದಲಾವಣೆಗಳ ವಿಶ್ಲೇಷಣೆ\nವರ್ಣವ್ಯವಸ್ಥೆ ಮತ್ತು ಸ್ತ್ರೀಯರ ಸ್ಥಾನಮಾನ ಕುರಿತು ಅರಿವು\nವೇದಗಳು ಮತ್ತು ಮಹಾಕಾವ್ಯಗಳ ಪರಿಚಯ",
+        "equations": []
+      },
+      "visual": {
+        "type": "none",
+        "alt_text": "",
+        "detailed_description": "",
+        "future_asset_id": ""
+      },
+      "layout": "left_text_only",
+      "animation": {
+        "pause_after": 0.5
+      }
+    }
+  ]
+}

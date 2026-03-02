@@ -1,0 +1,101 @@
+[
+  {
+    "file": "class 8 part1\\chapter4\\modules\\chunks\\audio\\m5\\seg_0.wav",
+    "start": 0,
+    "end": 17.21,
+    "duration": 17.21,
+    "display": {
+      "title": "ಪೂರ್ವ ಮತ್ತು ಉತ್ತರ ವೇದಕಾಲಗಳ ವ್ಯತ್ಯಾಸಗಳು",
+      "markdown": "ಸಾಮಾಜಿಕ, ರಾಜಕೀಯ, ಆರ್ಥಿಕ ಮತ್ತು ಧಾರ್ಮಿಕ ಕ್ಷೇತ್ರಗಳಲ್ಲಿ ವ್ಯತ್ಯಾಸಗಳು\nತುಲನಾತ್ಮಕ ಅಧ್ಯಯನದ ಮಹತ್ವ",
+      "equations": []
+    }
+  },
+  {
+    "file": "class 8 part1\\chapter4\\modules\\chunks\\audio\\m5\\seg_1.wav",
+    "start": 17.61,
+    "end": 24.31,
+    "duration": 6.69,
+    "display": {
+      "title": "ಪ್ರಮುಖ ವ್ಯತ್ಯಾಸಗಳ ಹೋಲಿಕೆ",
+      "markdown": "ನಾಲ್ಕು ಕ್ಷೇತ್ರಗಳಲ್ಲಿ ಹೋಲಿಕೆ: ರಾಜಕೀಯ, ಸಮಾಜ, ಆರ್ಥಿಕತೆ, ಧರ್ಮ",
+      "equations": []
+    }
+  },
+  {
+    "file": "class 8 part1\\chapter4\\modules\\chunks\\audio\\m5\\seg_2.wav",
+    "start": 24.71,
+    "end": 47.55,
+    "duration": 22.84,
+    "display": {
+      "title": "ರಾಜಕೀಯ ಕ್ಷೇತ್ರದಲ್ಲಿ ವ್ಯತ್ಯಾಸ",
+      "markdown": "ಪೂರ್ವ ವೇದಕಾಲ: ರಾಜನ ಅಧಿಕಾರ ಸೀಮಿತ, ಆಯ್ಕೆ ಪ್ರಕ್ರಿಯೆ\nಉತ್ತರ ವೇದಕಾಲ: ರಾಜನ ಅಧಿಕಾರ ಅನಿಯಮಿತ, ವಂಶಪಾರಂಪರ್ಯ, ಸಭೆಗಳು ದುರ್ಬಲ",
+      "equations": []
+    }
+  },
+  {
+    "file": "class 8 part1\\chapter4\\modules\\chunks\\audio\\m5\\seg_3.wav",
+    "start": 47.95,
+    "end": 80.5,
+    "duration": 32.56,
+    "display": {
+      "title": "ಸಾಮಾಜಿಕ ಕ್ಷೇತ್ರದಲ್ಲಿ ವ್ಯತ್ಯಾಸ",
+      "markdown": "ಪೂರ್ವ ವೇದಕಾಲ: ಸಡಿಲ ವರ್ಣವ್ಯವಸ್ಥೆ, ಸ್ತ್ರೀಯರಿಗೆ ಉತ್ತಮ ಸ್ಥಾನಮಾನ, ಅಲೆಮಾರಿ ಜೀವನ\nಉತ್ತರ ವೇದಕಾಲ: ಕಠಿಣ ವರ್ಣವ್ಯವಸ್ಥೆ, ಸ್ತ್ರೀಯರ ಸ್ಥಾನಮಾನ ಕುಸಿತ, ಸ್ಥಿರ ಜೀವನ",
+      "equations": []
+    }
+  },
+  {
+    "file": "class 8 part1\\chapter4\\modules\\chunks\\audio\\m5\\seg_4.wav",
+    "start": 80.9,
+    "end": 98.45,
+    "duration": 17.55,
+    "display": {
+      "title": "ಆರ್ಥಿಕ ಕ್ಷೇತ್ರದಲ್ಲಿ ವ್ಯತ್ಯಾಸ",
+      "markdown": "ಪೂರ್ವ ವೇದಕಾಲ: ಪಶುಪಾಲನೆ ಮುಖ್ಯ, ಹಸುಗಳು ಸಂಪತ್ತಿನ ಮೂಲ\nಉತ್ತರ ವೇದಕಾಲ: ಕೃಷಿ ಮುಖ್ಯ, ಭೂಮಿ ಸಂಪತ್ತಿನ ಮೂಲ",
+      "equations": []
+    }
+  },
+  {
+    "file": "class 8 part1\\chapter4\\modules\\chunks\\audio\\m5\\seg_5.wav",
+    "start": 98.85,
+    "end": 121.22,
+    "duration": 22.37,
+    "display": {
+      "title": "ಧಾರ್ಮಿಕ ಕ್ಷೇತ್ರದಲ್ಲಿ ವ್ಯತ್ಯಾಸ",
+      "markdown": "ಪೂರ್ವ ವೇದಕಾಲ: ಸರಳ ಯಜ್ಞಗಳು, ಪ್ರಕೃತಿ ದೇವತೆಗಳ ಪೂಜೆ\nಉತ್ತರ ವೇದಕಾಲ: ಸಂಕೀರ್ಣ ಯಜ್ಞಗಳು, ತ್ರಿಮೂರ್ತಿಗಳ ಕಲ್ಪನೆ",
+      "equations": []
+    }
+  },
+  {
+    "file": "class 8 part1\\chapter4\\modules\\chunks\\audio\\m5\\seg_6.wav",
+    "start": 121.62,
+    "end": 156.32,
+    "duration": 34.7,
+    "display": {
+      "title": "ಬದಲಾವಣೆಗಳ ಪರಿಣಾಮ",
+      "markdown": "ಅರೆ-ಅಲೆಮಾರಿ ಪಶುಪಾಲಕ ಸಮಾಜದಿಂದ ಸ್ಥಿರ ಕೃಷಿ-ಆಧಾರಿತ ನಾಗರಿಕತೆ\nಆರ್ಥಿಕ ಬದಲಾವಣೆಗಳಿಂದ ರಾಜಕೀಯ, ಸಾಮಾಜಿಕ, ಧಾರ್ಮಿಕ ಪರಿವರ್ತನೆ",
+      "equations": []
+    }
+  },
+  {
+    "file": "class 8 part1\\chapter4\\modules\\chunks\\audio\\m5\\seg_7.wav",
+    "start": 156.72,
+    "end": 177.01,
+    "duration": 20.29,
+    "display": {
+      "title": "ಪರಿವರ್ತನೆಯ ಇತಿಹಾಸಾತ್ಮಕ ಮಹತ್ವ",
+      "markdown": "ಭಾರತದ ಇತಿಹಾಸದಲ್ಲಿ ಮಹತ್ವದ ಘಟ್ಟ\nಮಗಧ ಸಾಮ್ರಾಜ್ಯ ಮತ್ತು ಧಾರ್ಮಿಕ ಚಳುವಳಿಗಳ ಹುಟ್ಟು",
+      "equations": []
+    }
+  },
+  {
+    "file": "class 8 part1\\chapter4\\modules\\chunks\\audio\\m5\\seg_8.wav",
+    "start": 177.41,
+    "end": 219.22,
+    "duration": 41.8,
+    "display": {
+      "title": "ಅಧ್ಯಾಯದ ಸಾರಾಂಶ",
+      "markdown": "ಭಾರತೀಯ ಸಂಸ್ಕೃತಿಯ ಮೂಲ ಬೇರುಗಳ ಪರಿಚಯ\nತುಲನಾತ್ಮಕ ಅಧ್ಯಯನದಿಂದ ಐತಿಹಾಸಿಕ ಬದಲಾವಣೆಗಳ ವಿಶ್ಲೇಷಣೆ\nವರ್ಣವ್ಯವಸ್ಥೆ ಮತ್ತು ಸ್ತ್ರೀಯರ ಸ್ಥಾನಮಾನ ಕುರಿತು ಅರಿವು\nವೇದಗಳು ಮತ್ತು ಮಹಾಕಾವ್ಯಗಳ ಪರಿಚಯ",
+      "equations": []
+    }
+  }
+]

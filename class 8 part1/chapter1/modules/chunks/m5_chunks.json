@@ -1,0 +1,155 @@
+{
+  "chapter_title": "ಇತಿಹಾಸ ಪರಿಚಯ: ಶಿಲಾಯುಗ ಮತ್ತು ಲೋಹಯುಗ",
+  "module_id": "m5",
+  "module_title": "ಲೋಹಯುಗ: ತಂತ್ರಜ್ಞಾನ, ನಗರೀಕರಣ ಮತ್ತು ಸಾಮ್ರಾಜ್ಯಗಳ ಉದಯ",
+  "target_exam": "GPSTR",
+  "chunks": [
+    {
+      "chunk_id": "m5_c1",
+      "order": 1,
+      "chunk_type": "intro",
+      "script": "ನವಶಿಲಾಯುಗದ ಕೊನೆಯಲ್ಲಿ ಮಾನವನು ಲೋಹಗಳನ್ನು ಬಳಸಲು ಕಲಿತನು. ಇದು ತಂತ್ರಜ್ಞಾನದಲ್ಲಿ ಮತ್ತೊಂದು ಮಹತ್ವದ ಮೈಲಿಗಲ್ಲು. ಮೊದಲು ಬಳಸಿದ ಲೋಹ ತಾಮ್ರ. ತಾಮ್ರ ಮತ್ತು ಕಲ್ಲಿನ ಉಪಕರಣಗಳು ಒಟ್ಟಿಗೆ ಬಳಕೆಯಲ್ಲಿದ್ದ ಕಾಲವನ್ನು 'ತಾಮ್ರ-ಶಿಲಾಯುಗ' ಎನ್ನುತ್ತಾರೆ. ತಾಮ್ರಕ್ಕೆ ತವರವನ್ನು ಬೆರೆಸಿ ಹೆಚ್ಚು ಗಟ್ಟಿಯಾದ ಮಿಶ್ರಲೋಹವಾದ 'ಕಂಚು' ತಯಾರಿಸುವುದನ್ನು ಕಲಿತ ನಂತರ 'ಕಂಚಿನ ಯುಗ' ಆರಂಭವಾಯಿತು. ತದನಂತರ ಕಬ್ಬಿಣದ ಬಳಕೆ ಆರಂಭವಾಯಿತು.",
+      "display": {
+        "title": "ಲೋಹಯುಗದ ಆರಂಭ",
+        "markdown": "ನವಶಿಲಾಯುಗದ ಕೊನೆಯಲ್ಲಿ ಲೋಹಗಳ ಬಳಕೆ ಆರಂಭವಾಯಿತು\nಮೊದಲು ತಾಮ್ರ, ನಂತರ ಕಂಚು, ನಂತರ ಕಬ್ಬಿಣ ಬಳಕೆಯಾಯಿತು\n'ತಾಮ್ರ-ಶಿಲಾಯುಗ' ಮತ್ತು 'ಕಂಚಿನ ಯುಗ' ಎಂಬ ಹಂತಗಳು\nತಂತ್ರಜ್ಞಾನದಲ್ಲಿ ಮಹತ್ವದ ಮೈಲಿಗಲ್ಲು",
+        "equations": []
+      },
+      "visual": {
+        "type": "placeholder",
+        "alt_text": "ಲೋಹಗಳ ಬಳಕೆಯ ಕ್ರಮ: ತಾಮ್ರ → ಕಂಚು → ಕಬ್ಬಿಣ",
+        "detailed_description": "Flowchart showing the sequence: Neolithic Age → Use of Copper (Copper-Stone Age) → Discovery of Bronze (Bronze Age) → Use of Iron (Iron Age). Arrows indicate progression of metal usage.",
+        "future_asset_id": ""
+      },
+      "layout": "left_text_right_visual",
+      "animation": {
+        "pause_after": 0.5
+      }
+    },
+    {
+      "chunk_id": "m5_c2",
+      "order": 2,
+      "chunk_type": "concept_explanation",
+      "script": "ತಾಮ್ರ ಮತ್ತು ಕಂಚಿನ ಯುಗವು ಸುಮಾರು ಐದು ಸಾವಿರ ವರ್ಷಗಳ ಹಿಂದೆ ಆರಂಭವಾಯಿತು. ಈ ಕಾಲದಲ್ಲಿ ತಾಮ್ರ ಮತ್ತು ಕಂಚಿನ ಉಪಕರಣಗಳಾದ ಕೊಡಲಿ ಮತ್ತು ಉಳಿಗಳು, ಕೃಷಿಭೂಮಿಯನ್ನು ವಿಸ್ತರಿಸಲು ಮತ್ತು ಆಳವಾಗಿ ಉಳಲು ಸಹಕಾರಿಯಾದವು. ಇದು ಕೃಷಿ ಉತ್ಪಾದನೆಯಲ್ಲಿ ಹೆಚ್ಚಳಕ್ಕೆ ಕಾರಣವಾಯಿತು. ಈ ಹೆಚ್ಚುವರಿ ಉತ್ಪಾದನೆಯು ಕುಶಲಕರ್ಮಿಗಳು, ವ್ಯಾಪಾರಿಗಳಂತಹ ವಿಶೇಷ ವೃತ್ತಿಗಳ ಉದಯಕ್ಕೆ ಕಾರಣವಾಯಿತು. ಜೊತೆಗೆ, ವ್ಯಾಪಾರ ಮತ್ತು ವಾಣಿಜ್ಯ ಚಟುವಟಿಕೆಗಳು ವಿಸ್ತರಿಸಿದವು. ಈ ಎಲ್ಲಾ ಬೆಳವಣಿಗೆಗಳ ಪರಿಣಾಮವಾಗಿ ಭಾರತದ ವಾಯುವ್ಯ ಭಾಗದಲ್ಲಿ ಸಿಂಧೂ ನದಿ ಬಯಲಿನಲ್ಲಿ ಹರಪ್ಪಾ ನಾಗರಿಕತೆಯಂತಹ ಬೃಹತ್ ನಗರ-ಕೇಂದ್ರಿತ ಸಂಸ್ಕೃತಿ ಉದಯಿಸಿತು. ಇದನ್ನು ಮೊದಲ ನಗರೀಕರಣ ಎಂದೂ ಕರೆಯುತ್ತಾರೆ. ದಕ್ಷಿಣ ಭಾರತದಲ್ಲಿ, ಕರ್ನಾಟಕದ ಹಳ್ಳೂರು, ಬ್ರಹ್ಮಗಿರಿ, ಮತ್ತು ಬನಹಳ್ಳಿಗಳಲ್ಲಿ ಈ ಯುಗದ ನೆಲೆಗಳು ಕಂಡುಬಂದಿವೆ.",
+      "display": {
+        "title": "ತಾಮ್ರ ಮತ್ತು ಕಂಚಿನ ಯುಗದ ವೈಶಿಷ್ಟ್ಯಗಳು",
+        "markdown": "ತಾಮ್ರ ಮತ್ತು ಕಂಚಿನ ಉಪಕರಣಗಳ ಬಳಕೆ\nಕೃಷಿ ಉತ್ಪಾದನೆ ಹೆಚ್ಚಳ\nವಿಶೇಷ ವೃತ್ತಿಗಳ ಉದಯ\nಮೊದಲ ನಗರೀಕರಣ: ಹರಪ್ಪಾ ನಾಗರಿಕತೆ",
+        "equations": []
+      },
+      "visual": {
+        "type": "placeholder",
+        "alt_text": "ತಾಮ್ರ-ಕಂಚಿನ ಯುಗದಿಂದ ನಗರೀಕರಣದ ಪ್ರಕ್ರಿಯೆ",
+        "detailed_description": "Flowchart showing: Use of copper and bronze tools → Increased agricultural production → Rise of specialized professions and trade → Emergence of urban civilization (Harappa).",
+        "future_asset_id": ""
+      },
+      "layout": "left_text_right_visual",
+      "animation": {
+        "pause_after": 0.5
+      }
+    },
+    {
+      "chunk_id": "m5_c3",
+      "order": 3,
+      "chunk_type": "concept_explanation",
+      "script": "ಕಬ್ಬಿಣ ಯುಗವು ದಕ್ಷಿಣ ಭಾರತದಲ್ಲಿ ಸುಮಾರು ಮೂರು ಸಾವಿರದ ಐನೂರು ವರ್ಷಗಳ ಹಿಂದೆ, ಮತ್ತು ಉತ್ತರ ಭಾರತದಲ್ಲಿ ಸ್ವಲ್ಪ ನಂತರ ಆರಂಭವಾಯಿತು. ಕಬ್ಬಿಣವು ತಾಮ್ರ ಮತ್ತು ಕಂಚಿಗಿಂತ ಗಟ್ಟಿಯಾಗಿದ್ದು, ಅಗ್ಗವಾಗಿ ಮತ್ತು ಹೇರಳವಾಗಿ ಲಭ್ಯವಿತ್ತು. ಕಬ್ಬಿಣದ ನೇಗಿಲುಗಳು ಮತ್ತು ಕೊಡಲಿಗಳು ದಟ್ಟ ಅರಣ್ಯಗಳನ್ನು ಕಡಿದು ಕೃಷಿ ಭೂಮಿಯನ್ನು ವ್ಯಾಪಕವಾಗಿ ವಿಸ್ತರಿಸಲು ನೆರವಾದವು. ಇದರಿಂದ ಕೃಷಿ ಉತ್ಪಾದನೆ ಗಣನೀಯವಾಗಿ ಹೆಚ್ಚಾಯಿತು. ಉತ್ತರ ಭಾರತದಲ್ಲಿ ಕೃಷಿ ಉತ್ಪಾದನೆಯ ಹೆಚ್ಚಳವು ದೊಡ್ಡ ರಾಜ್ಯಗಳಾದ ಗಣರಾಜ್ಯಗಳು, ಮಹಾಜನಪದಗಳು ಮತ್ತು ನಂದ, ಮೌರ್ಯರಂತಹ ಸಾಮ್ರಾಜ್ಯಗಳ ಉದಯಕ್ಕೆ ಕಾರಣವಾಯಿತು. ಇದನ್ನು ಎರಡನೇ ನಗರೀಕರಣ ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ. ದಕ್ಷಿಣ ಭಾರತದಲ್ಲಿ, ಕಬ್ಬಿಣ ಯುಗವು 'ಬೃಹತ್ ಶಿಲಾ ಸಂಸ್ಕೃತಿ' ಯೊಂದಿಗೆ ಸಂಬಂಧ ಹೊಂದಿದೆ. ಇಲ್ಲಿನ ಜನರು ಮೃತರನ್ನು ದೊಡ್ಡ ಕಲ್ಲುಗಳಿಂದ ನಿರ್ಮಿಸಿದ ಸಮಾಧಿಗಳಲ್ಲಿ ಹೂಳುತ್ತಿದ್ದರು. ಕರ್ನಾಟಕದ ಪ್ರಮುಖ ನೆಲೆಗಳೆಂದರೆ ಹಿರೇಬೆನಕಲ್ಲು, ಬ್ರಹ್ಮಗಿರಿ, ಕೊಪ್ಪ, ಟಿ.ನರಸೀಪುರ, ಜಡಿಗೇನಹಳ್ಳಿ, ಮತ್ತು ಸಾವನದುರ್ಗ.",
+      "display": {
+        "title": "ಕಬ್ಬಿಣ ಯುಗದ ಪ್ರಭಾವ",
+        "markdown": "ಕಬ್ಬಿಣದ ಉಪಕರಣಗಳಿಂದ ಕೃಷಿ ವಿಸ್ತರಣೆ\nಉತ್ತರ ಭಾರತದಲ್ಲಿ ಮಹಾಜನಪದಗಳು, ಸಾಮ್ರಾಜ್ಯಗಳ ಉದಯ\nಎರಡನೇ ನಗರೀಕರಣ\nದಕ್ಷಿಣ ಭಾರತದ ಬೃಹತ್ ಶಿಲಾ ಸಂಸ್ಕೃತಿ",
+        "equations": []
+      },
+      "visual": {
+        "type": "placeholder",
+        "alt_text": "ಕಬ್ಬಿಣ ಯುಗದಿಂದ ರಾಜಕೀಯ ಮತ್ತು ಸಾಮಾಜಿಕ ಬದಲಾವಣೆ",
+        "detailed_description": "Flowchart: Iron tools → Forest clearing → Agricultural expansion → Increased production → Rise of large states and empires (Mahajanapadas, Mauryas) in North India; Megalithic culture in South India.",
+        "future_asset_id": ""
+      },
+      "layout": "left_text_right_visual",
+      "animation": {
+        "pause_after": 0.5
+      }
+    },
+    {
+      "chunk_id": "m5_c4",
+      "order": 4,
+      "chunk_type": "cause_effect",
+      "script": "ಲೋಹಗಳ ಬಳಕೆಯು ಮಾನವನ ಪ್ರಕೃತಿಯ ಮೇಲಿನ ನಿಯಂತ್ರಣವನ್ನು ಗಣನೀಯವಾಗಿ ಹೆಚ್ಚಿಸಿತು. ತಾಮ್ರ ಮತ್ತು ಕಂಚು ಮೊದಲ ನಗರೀಕರಣಕ್ಕೆ ಕಾರಣವಾದರೆ, ಕಬ್ಬಿಣದ ವ್ಯಾಪಕ ಬಳಕೆಯು ಸಾಮ್ರಾಜ್ಯಶಾಹಿ ರಾಜಕೀಯ ವ್ಯವಸ್ಥೆಗಳ ಉದಯಕ್ಕೆ ಆರ್ಥಿಕ ಬುನಾದಿಯನ್ನು ಒದಗಿಸಿತು. ಇದು ತಂತ್ರಜ್ಞಾನವು ಸಾಮಾಜಿಕ ಮತ್ತು ರಾಜಕೀಯ ಬದಲಾವಣೆಗಳನ್ನು ಹೇಗೆ ಪ್ರೇರೇಪಿಸುತ್ತದೆ ಎಂಬುದಕ್ಕೆ ಉತ್ತಮ ಉದಾಹರಣೆಯಾಗಿದೆ.",
+      "display": {
+        "title": "ಲೋಹಗಳ ಬಳಕೆಯ ಪರಿಣಾಮಗಳು",
+        "markdown": "ಪ್ರಕೃತಿಯ ಮೇಲಿನ ನಿಯಂತ್ರಣ ಹೆಚ್ಚಳ\nತಾಮ್ರ-ಕಂಚು: ಮೊದಲ ನಗರೀಕರಣಕ್ಕೆ ಕಾರಣ\nಕಬ್ಬಿಣ: ಸಾಮ್ರಾಜ್ಯಶಾಹಿ ವ್ಯವಸ್ಥೆಗಳ ಆರ್ಥಿಕ ಬುನಾದಿ\nತಂತ್ರಜ್ಞಾನದಿಂದ ಸಾಮಾಜಿಕ-ರಾಜಕೀಯ ಬದಲಾವಣೆ",
+        "equations": []
+      },
+      "visual": {
+        "type": "placeholder",
+        "alt_text": "ಲೋಹಗಳ ಬಳಕೆಯಿಂದ ಉಂಟಾದ ಪರಿಣಾಮಗಳ ಹಿರarchie",
+        "detailed_description": "Hierarchy diagram: Metal usage (Copper/Bronze → Iron) at the top; branching to (1) Urbanization (first urbanization) and (2) Emergence of imperial political systems (second urbanization).",
+        "future_asset_id": ""
+      },
+      "layout": "left_text_right_visual",
+      "animation": {
+        "pause_after": 0.5
+      }
+    },
+    {
+      "chunk_id": "m5_c5",
+      "order": 5,
+      "chunk_type": "event_analysis",
+      "script": "ಕಬ್ಬಿಣ ಯುಗದಲ್ಲಿ ಉತ್ತರ ಭಾರತದಲ್ಲಿ ರೂಪುಗೊಂಡ ಮಹಾಜನಪದಗಳು ಮತ್ತು ಮೌರ್ಯ ಸಾಮ್ರಾಜ್ಯದ ಸ್ಥಾಪನೆಯು ಭಾರತವನ್ನು ಪ್ರಾಗೈತಿಹಾಸಿಕ ಕಾಲದಿಂದ ನಿಶ್ಚಿತ ಐತಿಹಾಸಿಕ ಕಾಲಘಟ್ಟಕ್ಕೆ ತಂದಿತು. ಇದರ ಅಧ್ಯಯನವು ಮುಂದಿನ ಅಧ್ಯಾಯಗಳ ವಿಷಯವಾಗಿದೆ.",
+      "display": {
+        "title": "ಮಹಾಜನಪದಗಳು ಮತ್ತು ಐತಿಹಾಸಿಕ ಕಾಲಘಟ್ಟ",
+        "markdown": "ಮಹಾಜನಪದಗಳು, ಮೌರ್ಯ ಸಾಮ್ರಾಜ್ಯ ಸ್ಥಾಪನೆ\nಭಾರತ ಪ್ರಾಗೈತಿಹಾಸಿಕದಿಂದ ಐತಿಹಾಸಿಕ ಕಾಲಕ್ಕೆ\nಮುಂದಿನ ಅಧ್ಯಾಯಗಳಲ್ಲಿ ಅಧ್ಯಯನ",
+        "equations": []
+      },
+      "visual": {
+        "type": "none",
+        "alt_text": "",
+        "detailed_description": "",
+        "future_asset_id": ""
+      },
+      "layout": "left_text_only",
+      "animation": {
+        "pause_after": 0.5
+      }
+    },
+    {
+      "chunk_id": "m5_c6",
+      "order": 6,
+      "chunk_type": "concept_explanation",
+      "script": "ಈ ಅಧ್ಯಾಯವು ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಇತಿಹಾಸದ ಮೂಲ ಪರಿಕರಗಳನ್ನು ಪರಿಚಯಿಸುತ್ತದೆ. ಆಧಾರಗಳ ವಿಶ್ಲೇಷಣೆ, ಕಾಲಗಣನೆಯ ಮಹತ್ವ ಮತ್ತು ತಾಂತ್ರಿಕ ವಿಕಾಸ ಹಾಗೂ ಸಾಮಾಜಿಕ ವಿಕಾಸದ ನಡುವಿನ ಅವಿನಾಭಾವ ಸಂಬಂಧವನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳಲು ಇದು ಅಡಿಪಾಯ ಹಾಕುತ್ತದೆ. ಇಲ್ಲಿ ತಾಂತ್ರಿಕ ವಿಕಾಸವೆಂದರೆ ಕಲ್ಲಿನಿಂದ ಲೋಹಕ್ಕೆ ಆದ ಬದಲಾವಣೆ ಮತ್ತು ಸಾಮಾಜಿಕ ವಿಕಾಸವೆಂದರೆ ಅಲೆಮಾರಿತನದಿಂದ ನಗರೀಕರಣಕ್ಕೆ ಸಾಗಿದ ಪಯಣ. ಪ್ರಾಗೈತಿಹಾಸಿಕ ಕಾಲದ ಮಾನವನ ಹೋರಾಟ ಮತ್ತು ಸಾಧನೆಗಳನ್ನು ಕಲಿಯುವುದರಿಂದ, ನಾಗರಿಕತೆಯ ವಿಕಾಸದ ದೀರ್ಘ ಮತ್ತು ಸಂಕೀರ್ಣ ಪಯಣದ ಬಗ್ಗೆ ಆಳವಾದ ದೃಷ್ಟಿಕೋನ ಮೂಡುತ್ತದೆ.",
+      "display": {
+        "title": "ಅಧ್ಯಾಯದ ಉದ್ದೇಶ",
+        "markdown": "ಇತಿಹಾಸದ ಮೂಲ ಪರಿಕರಗಳ ಪರಿಚಯ\nಆಧಾರಗಳ ವಿಶ್ಲೇಷಣೆ, ಕಾಲಗಣನೆಯ ಮಹತ್ವ\nತಾಂತ್ರಿಕ ಮತ್ತು ಸಾಮಾಜಿಕ ವಿಕಾಸದ ಸಂಬಂಧ\nನಾಗರಿಕತೆಯ ವಿಕಾಸದ ಆಳವಾದ ದೃಷ್ಟಿಕೋನ",
+        "equations": []
+      },
+      "visual": {
+        "type": "placeholder",
+        "alt_text": "ತಾಂತ್ರಿಕ ಮತ್ತು ಸಾಮಾಜಿಕ ವಿಕಾಸದ ಸಂಬಂಧ",
+        "detailed_description": "Two parallel arrows: (1) Technological development (Stone → Metal) and (2) Social development (Nomadism → Urbanization), both leading to deeper understanding of civilization's evolution.",
+        "future_asset_id": ""
+      },
+      "layout": "left_text_right_visual",
+      "animation": {
+        "pause_after": 0.5
+      }
+    },
+    {
+      "chunk_id": "m5_c7",
+      "order": 7,
+      "chunk_type": "exam_tip",
+      "script": "ಪರೀಕ್ಷಾ ದೃಷ್ಟಿಯಿಂದ, ಶಿಲಾಯುಗದ ಹಂತಗಳು, ಅವುಗಳ ವಿಶಿಷ್ಟ ಲಕ್ಷಣಗಳು, ಪ್ರಮುಖ ನೆಲೆಗಳು ಮತ್ತು ಲೋಹಗಳ ಬಳಕೆಯಿಂದಾದ ಪರಿಣಾಮಗಳು ಅತ್ಯಂತ ಮಹತ್ವದ ವಿಷಯಗಳಾಗಿವೆ.",
+      "display": {
+        "title": "ಪರೀಕ್ಷಾ ಟಿಪ್",
+        "markdown": "ಶಿಲಾಯುಗದ ಹಂತಗಳು\nವಿಶಿಷ್ಟ ಲಕ್ಷಣಗಳು\nಪ್ರಮುಖ ನೆಲೆಗಳು\nಲೋಹಗಳ ಬಳಕೆಯ ಪರಿಣಾಮಗಳು",
+        "equations": []
+      },
+      "visual": {
+        "type": "none",
+        "alt_text": "",
+        "detailed_description": "",
+        "future_asset_id": ""
+      },
+      "layout": "left_text_only",
+      "animation": {
+        "pause_after": 0.5
+      }
+    }
+  ]
+}
