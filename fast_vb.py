@@ -47,79 +47,71 @@ def generate_html(title, markdown_text):
     bullets = ""
     for line in markdown_text.split("\n"):
         if line.strip():
-            # Clean up potential markdown characters like '-' or '*'
+            # Clean up potential markdown characters
             clean_line = line.strip().lstrip('- ').lstrip('* ')
-            bullets += f"<li><span class='bullet-icon'></span>{clean_line}</li>"
+            bullets += f"<li><span class='bullet-node'></span>{clean_line}</li>"
 
     return f"""
     <html>
     <head>
     <meta charset="UTF-8">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Noto+Sans+Kannada:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Noto+Sans+Kannada:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {{
             margin: 0;
             padding: 0;
             width: {WIDTH}px;
             height: {HEIGHT}px;
-            background-color: #050505;
+            background-color: #020202;
+            /* Subtle dark glow in the bottom right for depth */
+            background-image: radial-gradient(circle at 90% 90%, #001a25 0%, #020202 60%);
             font-family: 'Inter', 'Noto Sans Kannada', sans-serif;
             color: #ffffff;
             display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
             overflow: hidden;
         }}
 
-        /* Left Side - Brand Strip */
-        .sidebar {{
-            width: 350px;
-            height: 100%;
-            background: linear-gradient(180deg, #0a0a0a 0%, #001a25 100%);
-            border-right: 1px solid rgba(0, 198, 255, 0.2);
+        .main-container {{
+            margin-top: 80px;
+            margin-left: 120px;
+            max-width: 1600px;
+        }}
+
+        /* Left-Aligned Brand */
+        .brand-header {{
             display: flex;
             align-items: center;
-            justify-content: center;
-            position: relative;
+            margin-bottom: 100px;
         }}
 
-        .brand-vertical {{
-            transform: rotate(-90deg);
-            white-space: nowrap;
-            font-size: 32px;
-            font-weight: 800;
-            letter-spacing: 12px;
+        .brand-name {{
+            font-size: 28px;
+            font-weight: 600;
+            letter-spacing: 6px;
             color: #00c6ff;
             text-transform: uppercase;
-            opacity: 0.9;
-            text-shadow: 0 0 20px rgba(0, 198, 255, 0.4);
+            border-left: 4px solid #00c6ff;
+            padding-left: 20px;
         }}
 
-        /* Right Side - Content Area */
-        .content {{
-            flex-grow: 1;
-            padding: 100px 120px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            background: radial-gradient(circle at 100% 0%, rgba(0, 198, 255, 0.05) 0%, transparent 40%);
-        }}
-
+        /* Content Section */
         .title {{
-            font-size: 76px;
+            font-size: 82px;
             font-weight: 800;
-            margin-bottom: 30px;
-            line-height: 1.1;
-            background: linear-gradient(to right, #ffffff, #bbbbbb);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            margin-bottom: 20px;
+            line-height: 1.2;
+            color: #ffffff;
+            letter-spacing: -1px;
         }}
 
-        .divider {{
-            width: 100px;
-            height: 8px;
-            background: #00c6ff;
-            margin-bottom: 50px;
-            border-radius: 4px;
-            box-shadow: 0 4px 15px rgba(0, 198, 255, 0.3);
+        .accent-line {{
+            width: 150px;
+            height: 6px;
+            background: linear-gradient(90deg, #00c6ff, transparent);
+            margin-bottom: 60px;
+            border-radius: 3px;
         }}
 
         ul {{
@@ -129,41 +121,38 @@ def generate_html(title, markdown_text):
         }}
 
         li {{
-            font-size: 42px;
-            line-height: 1.4;
-            margin-bottom: 40px;
+            font-size: 46px;
+            line-height: 1.6;
+            margin-bottom: 35px;
             display: flex;
             align-items: flex-start;
-            color: #d1d1d1;
+            color: #e0e0e0;
             font-weight: 400;
-            animation: fadeIn 0.8s ease-out;
+            /* Subtle drop shadow for premium legibility */
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
         }}
 
-        .bullet-icon {{
-            width: 16px;
-            height: 16px;
+        .bullet-node {{
+            width: 10px;
+            height: 30px;
             background: #00c6ff;
             margin-top: 22px;
-            margin-right: 30px;
+            margin-right: 35px;
             flex-shrink: 0;
-            border-radius: 50%; /* Rounded for a softer premium feel */
-            box-shadow: 0 0 12px rgba(0, 198, 255, 0.8);
-        }}
-
-        @keyframes fadeIn {{
-            from {{ opacity: 0; transform: translateX(20px); }}
-            to {{ opacity: 1; transform: translateX(0); }}
+            border-radius: 2px;
+            box-shadow: 0 0 15px rgba(0, 198, 255, 0.4);
         }}
     </style>
     </head>
     <body>
-        <div class="sidebar">
-            <div class="brand-vertical">SRINIVAS IAS ACADEMY</div>
-        </div>
-        
-        <div class="content">
+        <div class="main-container">
+            <div class="brand-header">
+                <div class="brand-name">SRINIVAS IAS ACADEMY</div>
+            </div>
+            
             <div class="title">{title}</div>
-            <div class="divider"></div>
+            <div class="accent-line"></div>
+            
             <ul>
                 {bullets}
             </ul>
