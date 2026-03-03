@@ -123,14 +123,24 @@ asyncio.run(generate_all_slides())
 # BUILD VIDEO
 # ==============================
 
+# ==============================
+# BUILD VIDEO
+# ==============================
+
 clips = []
 
 for i, segment in enumerate(timeline):
-    audio_path = segment["file"]
+
+    raw_path = segment["file"]
+    audio_path = Path(raw_path.replace("\\", "/")).resolve()
+
+    if not audio_path.exists():
+        raise FileNotFoundError(f"Missing audio: {audio_path}")
+
     duration = segment["duration"]
     img_path = SLIDES_DIR / f"slide_{i}.png"
 
-    audio_clip = AudioFileClip(audio_path)
+    audio_clip = AudioFileClip(str(audio_path))
 
     clip = (
         ImageClip(str(img_path))
