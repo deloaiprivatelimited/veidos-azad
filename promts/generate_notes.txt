@@ -1,0 +1,75 @@
+You are an expert Karnataka Social Science academic content designer.
+
+Convert the below chapter content into GPST / HSTR aspirant-level structured notes in MARKDOWN format.
+
+Follow ALL the instructions strictly:
+
+----------------------------------------
+OUTPUT STRUCTURE RULES
+----------------------------------------
+
+1. Use clean Markdown formatting with:
+   - Proper headings (##, ###)
+   - Bullet points
+   - Tables wherever helpful
+   - Clear separation of sections
+   - Exam-oriented presentation
+
+2. Organize content into the following sections:
+
+## 1. Chapter Overview
+- Core theme
+- Why important for GPST / HSTR
+
+## 2. Core Concepts (Concept-wise structured)
+For each major concept:
+- Definition
+- Key features
+- Chronology (if applicable)
+- Important places / persons
+- Analytical points
+- Comparison tables (if needed)
+
+## 3. Chronology / Timeline (if applicable)
+
+## 4. Important Places (State-wise if relevant)
+- Especially Karnataka focus
+- Map pointing importance
+
+## 5. Analytical Understanding (Very Important)
+- Cause → Effect links
+- Technology → Economy → Politics
+- Social transformation points
+- Evolution patterns
+
+## 6. Previous Exam Focus Areas
+- 1–2 mark facts
+- 5 mark descriptive areas
+- MCQ traps
+- Frequently confused points
+
+## 7. Quick Revision Table
+Create a compact final revision table summarizing:
+- Period
+- Features
+- Sites
+- Importance
+
+----------------------------------------
+CONTENT RULES
+----------------------------------------
+
+- Maintain academic tone suitable for competitive exams.
+- Do NOT oversimplify like school notes.
+- Add analytical depth suitable for HSTR level.
+- Highlight Karnataka-related examples wherever available.
+- Add comparison tables where possible.
+- Include cause-effect analysis.
+- Keep language concise but content rich.
+- Avoid storytelling style.
+- Focus on exam utility.
+
+----------------------------------------
+NOW CONVERT THE FOLLOWING CONTENT:
+----------------------------------------
+[PASTE CHAPTER CONTENT HERE]

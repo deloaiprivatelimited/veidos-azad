@@ -10,11 +10,14 @@
 │   ├── clean_markdown_bulk.py
 │   ├── clean_punctuation_bulk.py
 │   ├── cmds.txt
+│   ├── del1.py
 │   ├── delete_backups.py
 │   ├── delete_elite_and_chunk.py
 │   ├── demo_tts.py
 │   ├── end_v0.mp4
 │   ├── fast_vb.py
+│   ├── fb_v1.py
+│   ├── fb_v2.py
 │   ├── folder_tree.txt
 │   ├── fv1.py
 │   ├── gemini_elite_output.txt
@@ -857,6 +860,7 @@
 │   │   ├── generate_chunks.txt
 │   │   ├── generate_chunks_strict.txt
 │   │   ├── generate_modules.txt
+│   │   ├── generate_notes.txt
 │   │   ├── master_data_autofix_prompt.txt
 │   │   ├── master_data_prompt.txt
 │   │   ├── master_data_validation_prompt.txt

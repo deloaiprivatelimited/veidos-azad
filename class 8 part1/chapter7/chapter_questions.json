@@ -1,0 +1,109 @@
+{
+  "chapter_name": "Citizenship (ಪೌರತ್ವ)",
+  "mcqs": [
+    {
+      "question": "A person who resides permanently in a country, obeys its constitution, and enjoys all civil and political rights is termed as:",
+      "options": [
+        "A Tourist",
+        "A Foreigner",
+        "A Citizen",
+        "An Alien"
+      ],
+      "answer_index": 2,
+      "explanation": "In political science, a 'Citizen' is a permanent member of a state who owes allegiance to its constitution and is entitled to all legal and political rights, unlike foreigners who have limited rights."
+    },
+    {
+      "question": "Which of the following scenarios describes the 'Termination' of Indian citizenship?",
+      "options": [
+        "A person voluntarily gives up citizenship through a formal declaration.",
+        "The government cancels citizenship due to an act of treason.",
+        "A person automatically loses Indian citizenship upon voluntarily acquiring the citizenship of another country.",
+        "A person loses citizenship because it was obtained through fraud."
+      ],
+      "answer_index": 2,
+      "explanation": "Termination is a legal process where Indian citizenship automatically ends the moment a person acquires the citizenship of another country, as India does not allow dual citizenship."
+    },
+    {
+      "question": "The Indian Citizenship Act, which provides the legal framework for the acquisition and loss of citizenship, was passed in the year:",
+      "options": [
+        "1947",
+        "1950",
+        "1955",
+        "1961"
+      ],
+      "answer_index": 2,
+      "explanation": "While the Constitution (Articles 5-11) deals with citizenship at the commencement of the Republic, the Indian Citizenship Act of 1955 regulates the acquisition and termination of citizenship thereafter."
+    },
+    {
+      "question": "India adopted a 'Single Citizenship' system primarily to:",
+      "options": [
+        "Encourage people to migrate to other countries.",
+        "Promote national integration and prevent separatist tendencies.",
+        "Reduce the administrative burden on state governments.",
+        "Follow the model of the United States of America."
+      ],
+      "answer_index": 1,
+      "explanation": "Single citizenship was adopted to strengthen the unity and integrity of the nation, ensuring that regional loyalties do not supersede national loyalty."
+    },
+    {
+      "question": "Under the fundamental duties mentioned in the chapter, it is the responsibility of parents or guardians to provide education opportunities to children in the age group of:",
+      "options": [
+        "3 to 10 years",
+        "5 to 12 years",
+        "6 to 14 years",
+        "6 to 18 years"
+      ],
+      "answer_index": 2,
+      "explanation": "According to Article 51A and the chapter data, it is a duty of parents/guardians to ensure education for children between 6 and 14 years of age."
+    },
+    {
+      "question": "Which principle of citizenship acquisition is based on the 'Place of Birth'?",
+      "options": [
+        "Jus Sanguinis",
+        "Jus Soli",
+        "Naturalization",
+        "Registration"
+      ],
+      "answer_index": 1,
+      "explanation": "'Jus Soli' (Law of the Soil) refers to acquiring citizenship by being born within the territory of the state, whereas 'Jus Sanguinis' refers to the law of blood/descent."
+    },
+    {
+      "question": "A foreigner living in India for a specific period and fulfilling certain conditions can apply for citizenship through which method?",
+      "options": [
+        "By Birth",
+        "By Descent",
+        "By Registration/Naturalization",
+        "By Renunciation"
+      ],
+      "answer_index": 2,
+      "explanation": "Foreigners can become Indian citizens through 'Naturalization' or 'Registration' if they reside in India for a legally prescribed period (e.g., 5 years) and meet specific criteria."
+    },
+    {
+      "question": "Which of the following is NOT a characteristic of a 'Good Citizen' as per the chapter?",
+      "options": [
+        "Respecting the National Flag and National Anthem.",
+        "Paying taxes honestly and on time.",
+        "Prioritizing religious identity over national interest during conflicts.",
+        "Protecting public property and abjuring violence."
+      ],
+      "answer_index": 2,
+      "explanation": "A good citizen is expected to foster harmony and brotherhood transcending religious, linguistic, and regional diversities, putting national interest first."
+    }
+  ],
+  "short_questions": [
+    "Define the term 'Citizenship' in the context of a modern Nation-State.",
+    "Distinguish between a 'Citizen' and a 'Foreigner' based on their political rights.",
+    "What is meant by 'Renunciation' of citizenship?",
+    "Identify any three fundamental duties that reflect the qualities of a good citizen.",
+    "Why is the payment of taxes considered a crucial duty of a citizen?",
+    "Briefly explain the 'By Descent' method of acquiring citizenship.",
+    "What are the consequences of 'Deprivation' of citizenship by the government?"
+  ],
+  "long_questions": [
+    "Explain in detail the three legal methods through which an individual can lose their Indian citizenship.",
+    "Discuss the significance of the 'Single Citizenship' system in India and how it differs from the system in countries like the USA.",
+    "Analyze the various ways through which a person can acquire Indian citizenship as per the 1955 Act.",
+    "Evaluate the role of a citizen in a democracy, highlighting the balance between enjoying rights and performing duties.",
+    "Describe the qualities of an ideal citizen and explain how these qualities contribute to nation-building."
+  ]
+}
