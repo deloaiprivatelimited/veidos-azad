@@ -36,28 +36,122 @@ CRF_VALUE = "20"
 # HTML TEMPLATES
 # ==============================
 
-def get_content_html(title, markdown_text):
-    bullets = "".join([f"<li><span class='bullet-node'></span>{line.strip().lstrip('- *')}</li>" 
-                       for line in markdown_text.split("\n") if line.strip()])
+def generate_content_html(title, markdown_text):
+    bullets = ""
+    for line in markdown_text.split("\n"):
+        if line.strip():
+            clean_line = line.strip().lstrip('- ').lstrip('* ')
+            bullets += f"<li><span class='bullet-node'></span>{clean_line}</li>"
+
     return f"""
     <html>
     <head>
-        <meta charset="UTF-8">
-        <style>
-            body {{ margin: 0; background: #020202; color: white; font-family: 'Noto Sans Kannada', sans-serif; display: flex; width: {WIDTH}px; height: {HEIGHT}px; }}
-            .sidebar {{ width: 450px; padding: 100px 60px; border-right: 1px solid rgba(255,255,255,0.1); }}
-            .brand {{ font-size: 22px; font-weight: 700; color: #00c6ff; border-left: 4px solid #00c6ff; padding-left: 20px; letter-spacing: 3px; }}
-            .content {{ flex: 1; padding: 100px; display: flex; flex-direction: column; justify-content: center; }}
-            .title {{ font-size: 64px; font-weight: 800; margin-bottom: 20px; }}
-            .accent {{ width: 100px; height: 6px; background: #00c6ff; margin-bottom: 50px; }}
-            ul {{ list-style: none; padding: 0; }}
-            li {{ font-size: 38px; margin-bottom: 35px; display: flex; align-items: flex-start; color: #d0d0d0; }}
-            .bullet-node {{ width: 8px; height: 28px; background: #00c6ff; margin: 12px 25px 0 0; flex-shrink: 0; }}
-        </style>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Noto+Sans+Kannada:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {{
+            margin: 0;
+            padding: 0;
+            width: {WIDTH}px;
+            height: {HEIGHT}px;
+            background-color: #020202;
+            /* Subtle glow behind the content area on the right */
+            background-image: radial-gradient(circle at 80% 50%, #001a25 0%, #020202 70%);
+            font-family: 'Inter', 'Noto Sans Kannada', sans-serif;
+            color: #ffffff;
+            display: flex;
+            overflow: hidden;
+        }}
+
+        /* Left Side: Fixed Branding Pillar */
+        .sidebar {{
+            width: 500px;
+            height: 100%;
+            display: flex;
+            align-items: flex-start;
+            padding-left: 80px;
+            padding-top: 100px;
+            border-right: 1px solid rgba(255, 255, 255, 0.05);
+        }}
+
+        .brand-name {{
+            font-size: 24px;
+            font-weight: 600;
+            letter-spacing: 5px;
+            color: #00c6ff;
+            text-transform: uppercase;
+            border-left: 3px solid #00c6ff;
+            padding-left: 20px;
+            line-height: 1;
+        }}
+
+        /* Right Side: Content Area */
+        .content-area {{
+            flex-grow: 1;
+            padding: 100px 100px 100px 80px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }}
+
+        .title {{
+            font-size: 72px;
+            font-weight: 800;
+            margin-bottom: 25px;
+            line-height: 1.2;
+            color: #ffffff;
+            max-width: 1100px;
+        }}
+
+        .accent-line {{
+            width: 120px;
+            height: 5px;
+            background: #00c6ff;
+            margin-bottom: 60px;
+            border-radius: 2px;
+            box-shadow: 0 0 20px rgba(0, 198, 255, 0.5);
+        }}
+
+        ul {{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }}
+
+        li {{
+            font-size: 42px;
+            line-height: 1.5;
+            margin-bottom: 40px;
+            display: flex;
+            align-items: flex-start;
+            color: #cfcfcf;
+            font-weight: 400;
+        }}
+
+        .bullet-node {{
+            width: 8px;
+            height: 28px;
+            background: #00c6ff;
+            margin-top: 18px;
+            margin-right: 30px;
+            flex-shrink: 0;
+            border-radius: 1px;
+        }}
+    </style>
     </head>
     <body>
-        <div class="sidebar"><div class="brand">SRINIVAS IAS<br>ACADEMY</div></div>
-        <div class="content"><div class="title">{title}</div><div class="accent"></div><ul>{bullets}</ul></div>
+        <div class="sidebar">
+            <div class="brand-name">SRINIVAS IAS ACADEMY</div>
+        </div>
+        
+        <div class="content-area">
+            <div class="title">{title}</div>
+            <div class="accent-line"></div>
+            
+            <ul>
+                {bullets}
+            </ul>
+        </div>
     </body>
     </html>
     """
