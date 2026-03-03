@@ -156,7 +156,7 @@ def get_content_html(title, markdown_text):
     </html>
     """
 
-def get_intro_slide_html(chapter, module):
+def get_intro__html(chapter, module):
     return f"""
     <html>
     <head>
