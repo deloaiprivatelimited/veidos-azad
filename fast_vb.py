@@ -47,79 +47,115 @@ def generate_html(title, markdown_text):
     bullets = ""
     for line in markdown_text.split("\n"):
         if line.strip():
-            bullets += f"<li>{line}</li>"
+            # Using a custom bullet point for a more premium look
+            bullets += f"<li><span class='bullet-icon'></span>{line.strip()}</li>"
 
     return f"""
     <html>
     <head>
     <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Noto+Sans+Kannada:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {{
             margin: 0;
-            padding: 80px;
+            padding: 100px;
             width: {WIDTH}px;
             height: {HEIGHT}px;
-            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-            font-family: 'Noto Sans Kannada', sans-serif;
-            color: white;
+            background-color: #050505;
+            background-image: 
+                radial-gradient(circle at 0% 0%, rgba(0, 198, 255, 0.08) 0%, transparent 50%),
+                radial-gradient(circle at 100% 100%, rgba(0, 198, 255, 0.05) 0%, transparent 50%);
+            font-family: 'Inter', 'Noto Sans Kannada', sans-serif;
+            color: #e0e0e0;
             position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }}
 
-        .brand {{
+        /* Premium Brand Header */
+        .brand-container {{
             position: absolute;
             top: 60px;
             right: 80px;
-            font-size: 28px;
-            letter-spacing: 2px;
-            font-weight: 600;
-            opacity: 0.85;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
         }}
 
-        .brand::after {{
-            content: "";
-            display: block;
-            width: 100%;
-            height: 2px;
-            background: #00c6ff;
-            margin-top: 6px;
+        .brand {{
+            font-size: 24px;
+            letter-spacing: 4px;
+            font-weight: 700;
+            color: #00c6ff;
+            text-transform: uppercase;
+            padding: 10px 20px;
+            border: 1px solid rgba(0, 198, 255, 0.3);
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 4px;
+            backdrop-filter: blur(10px);
         }}
 
         .title {{
-            font-size: 64px;
-            font-weight: bold;
-            margin-top: 120px;
-            margin-bottom: 40px;
+            font-size: 72px;
+            font-weight: 800;
+            color: #ffffff;
+            margin-bottom: 20px;
+            line-height: 1.2;
+            text-shadow: 0px 4px 20px rgba(0,0,0,0.5);
         }}
 
         .divider {{
-            width: 200px;
-            height: 4px;
-            background: #00c6ff;
-            margin-bottom: 40px;
+            width: 120px;
+            height: 6px;
+            background: linear-gradient(90deg, #00c6ff, #0072ff);
+            margin-bottom: 60px;
+            border-radius: 3px;
         }}
 
         ul {{
-            font-size: 42px;
-            line-height: 1.6;
+            list-style: none;
+            padding: 0;
+            margin: 0;
         }}
 
         li {{
-            margin-bottom: 20px;
+            font-size: 44px;
+            line-height: 1.5;
+            margin-bottom: 35px;
+            display: flex;
+            align-items: flex-start;
+            color: #cccccc;
+            font-weight: 400;
+        }}
+
+        .bullet-icon {{
+            width: 12px;
+            height: 12px;
+            background: #00c6ff;
+            margin-top: 24px;
+            margin-right: 25px;
+            flex-shrink: 0;
+            border-radius: 2px;
+            box-shadow: 0 0 15px rgba(0, 198, 255, 0.6);
         }}
     </style>
     </head>
-
     <body>
-        <div class="brand">SRINIVAS IAS ACADEMY</div>
+        <div class="brand-container">
+            <div class="brand">SRINIVAS IAS ACADEMY</div>
+        </div>
+        
         <div class="title">{title}</div>
         <div class="divider"></div>
+        
         <ul>
             {bullets}
         </ul>
     </body>
     </html>
     """
-
 # ==============================
 # GENERATE SLIDES (Optimized)
 # ==============================
