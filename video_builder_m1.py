@@ -146,7 +146,7 @@ for i, segment in enumerate(timeline):
         ImageClip(str(img_path))
         .with_duration(duration)
         .with_audio(audio_clip)
-        .with_effects([vfx.fadein(0.5), vfx.fadeout(0.5)])
+        .with_effects([vfx.FadeIn(0.5), vfx.FadeOut(0.5)])
     )
 
     clips.append(clip)
