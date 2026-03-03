@@ -2,21 +2,28 @@
 │   ├── .gitignore
 │   ├── api+key.txt
 │   ├── arrange_pdf.py
+│   ├── audio_statistics_report.txt
+│   ├── audio_statistic_report.py
 │   ├── auto_fix_masterdata.py
 │   ├── bulk_generate_audio.py
 │   ├── clean_for_gemini_tts.py
 │   ├── clean_markdown_bulk.py
 │   ├── clean_punctuation_bulk.py
+│   ├── cmds.txt
 │   ├── delete_backups.py
 │   ├── delete_elite_and_chunk.py
 │   ├── demo_tts.py
+│   ├── end_v0.mp4
+│   ├── fast_vb.py
 │   ├── folder_tree.txt
+│   ├── fv1.py
 │   ├── gemini_elite_output.txt
 │   ├── gemini_elite_vertex.py
 │   ├── generate_chunks.py
 │   ├── generate_Elite_bulk.py
 │   ├── generate_master_data.py
 │   ├── generate_modules.py
+│   ├── intro_v0.mp4
 │   ├── module_gen_tokens.py
 │   ├── structured_chunks_output.json
 │   ├── structure_from_elite.py
@@ -24,6 +31,8 @@
 │   ├── timeline.json
 │   ├── tree.py
 │   ├── validate_master_data.py
+│   ├── vfast_vb.py
+│   ├── video_builder_m1.py
 │   ├── video_generator_windows.py
 │   ├── class 8 part1/
 │   │   ├── chapter1/
