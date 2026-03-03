@@ -5,6 +5,7 @@ from pathlib import Path
 from moviepy import (
     ImageClip,
     AudioFileClip,
+    VideoFileClip,
     concatenate_videoclips,
     vfx
 )
@@ -16,13 +17,20 @@ from playwright.async_api import async_playwright
 
 BASE_DIR = Path("class 8 part1/chapter1/modules/chunks/audio/m1")
 TIMELINE_FILE = BASE_DIR / "timeline.json"
-OUTPUT_VIDEO = "chapter1_module1.mp4"
+
+INTRO_VIDEO = "intro.mp4"
+END_VIDEO = "end.mp4"
+
+FINAL_OUTPUT = "chapter1_module1_full.mp4"
 
 SLIDES_DIR = Path("generated_slides_m1")
 SLIDES_DIR.mkdir(exist_ok=True)
 
 WIDTH = 1920
 HEIGHT = 1080
+FPS = 30
+THREADS = 8   # optimized for 16 vCPU machine
+CRF_VALUE = "20"  # 18 = near lossless, 20 = very high quality
 
 # ==============================
 # LOAD TIMELINE
@@ -38,7 +46,8 @@ with open(TIMELINE_FILE, "r", encoding="utf-8") as f:
 def generate_html(title, markdown_text):
     bullets = ""
     for line in markdown_text.split("\n"):
-        bullets += f"<li>{line}</li>"
+        if line.strip():
+            bullets += f"<li>{line}</li>"
 
     return f"""
     <html>
@@ -56,7 +65,6 @@ def generate_html(title, markdown_text):
             position: relative;
         }}
 
-        /* Academy Branding */
         .brand {{
             position: absolute;
             top: 60px;
@@ -103,10 +111,8 @@ def generate_html(title, markdown_text):
 
     <body>
         <div class="brand">SRINIVAS IAS ACADEMY</div>
-
         <div class="title">{title}</div>
         <div class="divider"></div>
-
         <ul>
             {bullets}
         </ul>
@@ -115,44 +121,46 @@ def generate_html(title, markdown_text):
     """
 
 # ==============================
-# RENDER HTML → PNG
+# GENERATE SLIDES (Optimized)
 # ==============================
-
-async def render_slide(html_content, output_path):
-    async with async_playwright() as p:
-        browser = await p.chromium.launch()
-        page = await browser.new_page(viewport={"width": WIDTH, "height": HEIGHT})
-
-        temp_html = SLIDES_DIR / "temp.html"
-        with open(temp_html, "w", encoding="utf-8") as f:
-            f.write(html_content)
-
-        await page.goto(f"file://{temp_html.resolve()}")
-        await page.wait_for_timeout(500)
-        await page.screenshot(path=output_path)
-        await browser.close()
 
 async def generate_all_slides():
-    for i, segment in enumerate(timeline):
-        title = segment["display"]["title"]
-        markdown = segment["display"]["markdown"]
+    async with async_playwright() as p:
+        browser = await p.chromium.launch(headless=True)
+        page = await browser.new_page(
+            viewport={"width": WIDTH, "height": HEIGHT}
+        )
 
-        html_content = generate_html(title, markdown)
-        output_png = SLIDES_DIR / f"slide_{i}.png"
+        temp_html = SLIDES_DIR / "temp.html"
 
-        await render_slide(html_content, output_png)
+        for i, segment in enumerate(timeline):
+            title = segment["display"]["title"]
+            markdown = segment["display"]["markdown"]
 
+            html_content = generate_html(title, markdown)
+
+            with open(temp_html, "w", encoding="utf-8") as f:
+                f.write(html_content)
+
+            await page.goto(f"file://{temp_html.resolve()}")
+            await page.wait_for_load_state("networkidle")
+
+            output_png = SLIDES_DIR / f"slide_{i}.png"
+            await page.screenshot(path=output_png)
+
+        await browser.close()
+
+print("🎨 Generating slides...")
 asyncio.run(generate_all_slides())
+print("✅ Slides generated.")
 
 # ==============================
-# BUILD VIDEO
+# BUILD MAIN SLIDE CLIPS
 # ==============================
 
-# ==============================
-# BUILD VIDEO
-# ==============================
+print("🎬 Building slide clips...")
 
-clips = []
+slide_clips = []
 
 for i, segment in enumerate(timeline):
 
@@ -171,60 +179,55 @@ for i, segment in enumerate(timeline):
         ImageClip(str(img_path))
         .with_duration(duration)
         .with_audio(audio_clip)
+        .with_fps(FPS)
         .with_effects([vfx.FadeIn(0.5), vfx.FadeOut(0.5)])
     )
 
-    clips.append(clip)
+    slide_clips.append(clip)
 
-final_video = concatenate_videoclips(clips, method="compose")
+main_video = concatenate_videoclips(slide_clips, method="compose")
 
-final_video.write_videofile(
-    OUTPUT_VIDEO,
-    fps=30,
-    codec="libx264",
-    audio_codec="aac",
-    bitrate="5000k"
-)
+# ==============================
+# ADD INTRO + END WITH CROSSFADE
+# ==============================
 
-print("✅ Chapter 1 Module 1 video generated successfully!")
+print("🎞 Adding intro and end...")
 
-from moviepy import VideoFileClip, concatenate_videoclips, vfx
+fade_duration = 1
 
-print("🎬 Merging intro + module + end with smooth fades...")
+intro_clip = VideoFileClip(INTRO_VIDEO).with_fps(FPS)
+end_clip = VideoFileClip(END_VIDEO).with_fps(FPS)
 
-fade_duration = 1  # seconds
+# Resize only if needed
+if intro_clip.size != main_video.size:
+    intro_clip = intro_clip.resized(main_video.size)
 
-intro_clip = VideoFileClip("intro.mp4")
-main_clip = VideoFileClip(OUTPUT_VIDEO)
-end_clip = VideoFileClip("end.mp4")
+if end_clip.size != main_video.size:
+    end_clip = end_clip.resized(main_video.size)
 
-# Match resolution
-intro_clip = intro_clip.resized(main_clip.size)
-end_clip = end_clip.resized(main_clip.size)
-
-# Match FPS
-intro_clip = intro_clip.with_fps(30)
-main_clip = main_clip.with_fps(30)
-end_clip = end_clip.with_fps(30)
-
-# Apply crossfade
-main_clip = main_clip.with_effects([vfx.CrossFadeIn(fade_duration)])
+main_video = main_video.with_effects([vfx.CrossFadeIn(fade_duration)])
 end_clip = end_clip.with_effects([vfx.CrossFadeIn(fade_duration)])
 
-# Concatenate with overlap
 final_video = concatenate_videoclips(
-    [intro_clip, main_clip, end_clip],
+    [intro_clip, main_video, end_clip],
     method="compose",
     padding=-fade_duration
 )
 
+# ==============================
+# FINAL EXPORT (Optimized)
+# ==============================
+
+print("🚀 Rendering final video...")
+
 final_video.write_videofile(
-    "chapter1_module1_full.mp4",
-    fps=30,
+    FINAL_OUTPUT,
+    fps=FPS,
     codec="libx264",
     audio_codec="aac",
-    bitrate="6000k",
-    preset="medium"
+    preset="fast",
+    threads=THREADS,
+    ffmpeg_params=["-crf", CRF_VALUE]
 )
 
-print("✅ Final cinematic version created!")
+print("✅ Final cinematic version created successfully!")
