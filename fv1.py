@@ -16,7 +16,7 @@ from playwright.async_api import async_playwright
 # ==============================
 # Normalizing input paths for Linux environment
 BASE_PATH = Path("class 8 part1/chapter1/modules")
-CHUNKS_JSON = BASE_PATH / "m1_chunks.json"
+CHUNKS_JSON = BASE_PATH / "chunks/m1_chunks.json"
 AUDIO_DIR = BASE_PATH / "chunks/audio/m1"
 TIMELINE_FILE = AUDIO_DIR / "timeline.json"
 
