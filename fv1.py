@@ -238,7 +238,7 @@ def assemble_video():
         
         clip = (
             ImageClip(slide_img)
-            .with_duration(segment["duration"])
+            .with_duration(audio.duration)
             .with_audio(audio)
             .with_fps(FPS)
             .with_effects([vfx.CrossFadeIn(0.5)])
