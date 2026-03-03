@@ -1,0 +1,2 @@
+scp -i "vidazad.pem" ubuntu@ec2-100-55-14-152.compute-1.amazonaws.com:/home/ubuntu/veidos-azad/chapter1_module1.mp4 .
+ssh -i "vidazad.pem" ubuntu@ec2-100-55-14-152.compute-1.amazonaws.com

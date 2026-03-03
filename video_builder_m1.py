@@ -53,11 +53,33 @@ def generate_html(title, markdown_text):
             background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
             font-family: 'Noto Sans Kannada', sans-serif;
             color: white;
+            position: relative;
+        }}
+
+        /* Academy Branding */
+        .brand {{
+            position: absolute;
+            top: 60px;
+            right: 80px;
+            font-size: 28px;
+            letter-spacing: 2px;
+            font-weight: 600;
+            opacity: 0.85;
+        }}
+
+        .brand::after {{
+            content: "";
+            display: block;
+            width: 100%;
+            height: 2px;
+            background: #00c6ff;
+            margin-top: 6px;
         }}
 
         .title {{
             font-size: 64px;
             font-weight: bold;
+            margin-top: 120px;
             margin-bottom: 40px;
         }}
 
@@ -80,8 +102,11 @@ def generate_html(title, markdown_text):
     </head>
 
     <body>
+        <div class="brand">SRINIVAS IAS ACADEMY</div>
+
         <div class="title">{title}</div>
         <div class="divider"></div>
+
         <ul>
             {bullets}
         </ul>
@@ -162,3 +187,44 @@ final_video.write_videofile(
 )
 
 print("✅ Chapter 1 Module 1 video generated successfully!")
+
+from moviepy import VideoFileClip, concatenate_videoclips, vfx
+
+print("🎬 Merging intro + module + end with smooth fades...")
+
+fade_duration = 1  # seconds
+
+intro_clip = VideoFileClip("intro.mp4")
+main_clip = VideoFileClip(OUTPUT_VIDEO)
+end_clip = VideoFileClip("end.mp4")
+
+# Match resolution
+intro_clip = intro_clip.resized(newsize=main_clip.size)
+end_clip = end_clip.resized(newsize=main_clip.size)
+
+# Match FPS
+intro_clip = intro_clip.with_fps(30)
+main_clip = main_clip.with_fps(30)
+end_clip = end_clip.with_fps(30)
+
+# Apply crossfade
+main_clip = main_clip.with_effects([vfx.CrossFadeIn(fade_duration)])
+end_clip = end_clip.with_effects([vfx.CrossFadeIn(fade_duration)])
+
+# Concatenate with overlap
+final_video = concatenate_videoclips(
+    [intro_clip, main_clip, end_clip],
+    method="compose",
+    padding=-fade_duration
+)
+
+final_video.write_videofile(
+    "chapter1_module1_full.mp4",
+    fps=30,
+    codec="libx264",
+    audio_codec="aac",
+    bitrate="6000k",
+    preset="medium"
+)
+
+print("✅ Final cinematic version created!")
