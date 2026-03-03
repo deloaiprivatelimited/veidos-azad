@@ -216,15 +216,14 @@ print("🚀 Rendering with NVENC GPU...")
 final_video.write_videofile(
     FINAL_OUTPUT,
     fps=FPS,
-    codec="h264_nvenc",      # 🔥 GPU encoding
+    codec="h264_nvenc",
     audio_codec="aac",
-    preset=NVENC_PRESET,
-    threads=THREADS,
+    preset="p2",          # p1 fastest, p2 very fast & stable
+    threads=16,
+    bitrate="8M",         # high quality for 1080p slides
     ffmpeg_params=[
-        "-cq", NVENC_CQ,
         "-pix_fmt", "yuv420p",
         "-movflags", "+faststart"
     ]
 )
-
 print("✅ Ultra-fast GPU cinematic version created!")
