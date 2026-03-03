@@ -5,7 +5,7 @@ def print_tree(start_path='.', output_file='folder_tree.txt'):
         for root, dirs, files in os.walk(start_path):
             
             # ✅ Skip virtual environment folders
-            dirs[:] = [d for d in dirs if d not in ('venv', '.venv', 'env', '__pycache__')]
+            dirs[:] = [d for d in dirs if d not in ('venv', '.venv', 'env', '__pycache__','.git')]
 
             level = root.replace(start_path, '').count(os.sep)
             indent = '│   ' * level

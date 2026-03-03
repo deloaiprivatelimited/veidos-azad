@@ -1,4 +1,5 @@
 ├── ./
+│   ├── .gitignore
 │   ├── api+key.txt
 │   ├── arrange_pdf.py
 │   ├── auto_fix_masterdata.py
