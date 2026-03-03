@@ -42,6 +42,71 @@ with open(TIMELINE_FILE, "r", encoding="utf-8") as f:
 # ==============================
 # HTML TEMPLATE
 # ==============================
+def generate_intro_html(chapter_title, module_title):
+    return f"""
+    <html>
+    <head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Noto+Sans+Kannada:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {{
+            margin: 0; padding: 0;
+            width: {WIDTH}px; height: {HEIGHT}px;
+            background-color: #020202;
+            background-image: radial-gradient(circle at 50% 50%, #001a25 0%, #020202 80%);
+            font-family: 'Inter', 'Noto Sans Kannada', sans-serif;
+            color: #ffffff;
+            display: flex; flex-direction: column;
+            align-items: center; justify-content: center;
+            text-align: center;
+        }}
+        .subject-tag {{
+            font-size: 32px;
+            color: #00c6ff;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+            border: 1px solid #00c6ff;
+            padding: 10px 30px;
+            border-radius: 50px;
+            text-transform: uppercase;
+        }}
+        .chapter-title {{
+            font-size: 84px;
+            font-weight: 800;
+            margin-bottom: 10px;
+            max-width: 1400px;
+            line-height: 1.2;
+        }}
+        .accent-bar {{
+            width: 200px; height: 6px;
+            background: linear-gradient(90deg, transparent, #00c6ff, transparent);
+            margin: 40px 0;
+            box-shadow: 0 0 20px rgba(0, 198, 255, 0.6);
+        }}
+        .module-title {{
+            font-size: 54px;
+            font-weight: 400;
+            color: #cfcfcf;
+            max-width: 1200px;
+        }}
+        .footer-brand {{
+            position: absolute;
+            bottom: 60px;
+            font-size: 20px;
+            letter-spacing: 8px;
+            color: rgba(255,255,255,0.3);
+        }}
+    </style>
+    </head>
+    <body>
+        <div class="subject-tag">8ನೇ ತರಗತಿ ಸಮಾಜ ವಿಜ್ಞಾನ</div>
+        <div class="chapter-title">{chapter_title}</div>
+        <div class="accent-bar"></div>
+        <div class="module-title">{module_title}</div>
+        <div class="footer-brand">SRINIVAS IAS ACADEMY</div>
+    </body>
+    </html>
+    """
 def generate_html(title, markdown_text):
     bullets = ""
     for line in markdown_text.split("\n"):
