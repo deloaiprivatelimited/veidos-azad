@@ -21,7 +21,7 @@ TIMELINE_FILE = BASE_DIR / "timeline.json"
 INTRO_VIDEO = "intro.mp4"
 END_VIDEO = "end.mp4"
 
-FINAL_OUTPUT = "chapter1_module1_full.mp4"
+FINAL_OUTPUT = "chapter1_module1_full_fast.mp4"
 
 SLIDES_DIR = Path("generated_slides_m1")
 SLIDES_DIR.mkdir(exist_ok=True)
