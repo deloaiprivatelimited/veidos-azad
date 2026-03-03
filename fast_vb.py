@@ -47,71 +47,79 @@ def generate_html(title, markdown_text):
     bullets = ""
     for line in markdown_text.split("\n"):
         if line.strip():
-            # Using a custom bullet point for a more premium look
-            bullets += f"<li><span class='bullet-icon'></span>{line.strip()}</li>"
+            # Clean up potential markdown characters like '-' or '*'
+            clean_line = line.strip().lstrip('- ').lstrip('* ')
+            bullets += f"<li><span class='bullet-icon'></span>{clean_line}</li>"
 
     return f"""
     <html>
     <head>
     <meta charset="UTF-8">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Noto+Sans+Kannada:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Noto+Sans+Kannada:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {{
             margin: 0;
-            padding: 100px;
+            padding: 0;
             width: {WIDTH}px;
             height: {HEIGHT}px;
             background-color: #050505;
-            background-image: 
-                radial-gradient(circle at 0% 0%, rgba(0, 198, 255, 0.08) 0%, transparent 50%),
-                radial-gradient(circle at 100% 100%, rgba(0, 198, 255, 0.05) 0%, transparent 50%);
             font-family: 'Inter', 'Noto Sans Kannada', sans-serif;
-            color: #e0e0e0;
-            position: relative;
+            color: #ffffff;
+            display: flex;
             overflow: hidden;
+        }}
+
+        /* Left Side - Brand Strip */
+        .sidebar {{
+            width: 350px;
+            height: 100%;
+            background: linear-gradient(180deg, #0a0a0a 0%, #001a25 100%);
+            border-right: 1px solid rgba(0, 198, 255, 0.2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }}
+
+        .brand-vertical {{
+            transform: rotate(-90deg);
+            white-space: nowrap;
+            font-size: 32px;
+            font-weight: 800;
+            letter-spacing: 12px;
+            color: #00c6ff;
+            text-transform: uppercase;
+            opacity: 0.9;
+            text-shadow: 0 0 20px rgba(0, 198, 255, 0.4);
+        }}
+
+        /* Right Side - Content Area */
+        .content {{
+            flex-grow: 1;
+            padding: 100px 120px;
             display: flex;
             flex-direction: column;
             justify-content: center;
-        }}
-
-        /* Premium Brand Header */
-        .brand-container {{
-            position: absolute;
-            top: 60px;
-            right: 80px;
-            display: flex;
-            flex-direction: column;
-            align-items: flex-end;
-        }}
-
-        .brand {{
-            font-size: 24px;
-            letter-spacing: 4px;
-            font-weight: 700;
-            color: #00c6ff;
-            text-transform: uppercase;
-            padding: 10px 20px;
-            border: 1px solid rgba(0, 198, 255, 0.3);
-            background: rgba(255, 255, 255, 0.03);
-            border-radius: 4px;
-            backdrop-filter: blur(10px);
+            background: radial-gradient(circle at 100% 0%, rgba(0, 198, 255, 0.05) 0%, transparent 40%);
         }}
 
         .title {{
-            font-size: 72px;
+            font-size: 76px;
             font-weight: 800;
-            color: #ffffff;
-            margin-bottom: 20px;
-            line-height: 1.2;
-            text-shadow: 0px 4px 20px rgba(0,0,0,0.5);
+            margin-bottom: 30px;
+            line-height: 1.1;
+            background: linear-gradient(to right, #ffffff, #bbbbbb);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }}
 
         .divider {{
-            width: 120px;
-            height: 6px;
-            background: linear-gradient(90deg, #00c6ff, #0072ff);
-            margin-bottom: 60px;
-            border-radius: 3px;
+            width: 100px;
+            height: 8px;
+            background: #00c6ff;
+            margin-bottom: 50px;
+            border-radius: 4px;
+            box-shadow: 0 4px 15px rgba(0, 198, 255, 0.3);
         }}
 
         ul {{
@@ -121,38 +129,45 @@ def generate_html(title, markdown_text):
         }}
 
         li {{
-            font-size: 44px;
-            line-height: 1.5;
-            margin-bottom: 35px;
+            font-size: 42px;
+            line-height: 1.4;
+            margin-bottom: 40px;
             display: flex;
             align-items: flex-start;
-            color: #cccccc;
+            color: #d1d1d1;
             font-weight: 400;
+            animation: fadeIn 0.8s ease-out;
         }}
 
         .bullet-icon {{
-            width: 12px;
-            height: 12px;
+            width: 16px;
+            height: 16px;
             background: #00c6ff;
-            margin-top: 24px;
-            margin-right: 25px;
+            margin-top: 22px;
+            margin-right: 30px;
             flex-shrink: 0;
-            border-radius: 2px;
-            box-shadow: 0 0 15px rgba(0, 198, 255, 0.6);
+            border-radius: 50%; /* Rounded for a softer premium feel */
+            box-shadow: 0 0 12px rgba(0, 198, 255, 0.8);
+        }}
+
+        @keyframes fadeIn {{
+            from {{ opacity: 0; transform: translateX(20px); }}
+            to {{ opacity: 1; transform: translateX(0); }}
         }}
     </style>
     </head>
     <body>
-        <div class="brand-container">
-            <div class="brand">SRINIVAS IAS ACADEMY</div>
+        <div class="sidebar">
+            <div class="brand-vertical">SRINIVAS IAS ACADEMY</div>
         </div>
         
-        <div class="title">{title}</div>
-        <div class="divider"></div>
-        
-        <ul>
-            {bullets}
-        </ul>
+        <div class="content">
+            <div class="title">{title}</div>
+            <div class="divider"></div>
+            <ul>
+                {bullets}
+            </ul>
+        </div>
     </body>
     </html>
     """
