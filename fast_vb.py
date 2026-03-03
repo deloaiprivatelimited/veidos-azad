@@ -42,12 +42,10 @@ with open(TIMELINE_FILE, "r", encoding="utf-8") as f:
 # ==============================
 # HTML TEMPLATE
 # ==============================
-
 def generate_html(title, markdown_text):
     bullets = ""
     for line in markdown_text.split("\n"):
         if line.strip():
-            # Clean up potential markdown characters
             clean_line = line.strip().lstrip('- ').lstrip('* ')
             bullets += f"<li><span class='bullet-node'></span>{clean_line}</li>"
 
@@ -63,55 +61,61 @@ def generate_html(title, markdown_text):
             width: {WIDTH}px;
             height: {HEIGHT}px;
             background-color: #020202;
-            /* Subtle dark glow in the bottom right for depth */
-            background-image: radial-gradient(circle at 90% 90%, #001a25 0%, #020202 60%);
+            /* Subtle glow behind the content area on the right */
+            background-image: radial-gradient(circle at 80% 50%, #001a25 0%, #020202 70%);
             font-family: 'Inter', 'Noto Sans Kannada', sans-serif;
             color: #ffffff;
             display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
             overflow: hidden;
         }}
 
-        .main-container {{
-            margin-top: 80px;
-            margin-left: 120px;
-            max-width: 1600px;
-        }}
-
-        /* Left-Aligned Brand */
-        .brand-header {{
+        /* Left Side: Fixed Branding Pillar */
+        .sidebar {{
+            width: 500px;
+            height: 100%;
             display: flex;
-            align-items: center;
-            margin-bottom: 100px;
+            align-items: flex-start;
+            padding-left: 80px;
+            padding-top: 100px;
+            border-right: 1px solid rgba(255, 255, 255, 0.05);
         }}
 
         .brand-name {{
-            font-size: 28px;
+            font-size: 24px;
             font-weight: 600;
-            letter-spacing: 6px;
+            letter-spacing: 5px;
             color: #00c6ff;
             text-transform: uppercase;
-            border-left: 4px solid #00c6ff;
+            border-left: 3px solid #00c6ff;
             padding-left: 20px;
+            line-height: 1;
         }}
 
-        /* Content Section */
+        /* Right Side: Content Area */
+        .content-area {{
+            flex-grow: 1;
+            padding: 100px 100px 100px 80px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }}
+
         .title {{
-            font-size: 82px;
+            font-size: 72px;
             font-weight: 800;
-            margin-bottom: 20px;
+            margin-bottom: 25px;
             line-height: 1.2;
             color: #ffffff;
-            letter-spacing: -1px;
+            max-width: 1100px;
         }}
 
         .accent-line {{
-            width: 150px;
-            height: 6px;
-            background: linear-gradient(90deg, #00c6ff, transparent);
+            width: 120px;
+            height: 5px;
+            background: #00c6ff;
             margin-bottom: 60px;
-            border-radius: 3px;
+            border-radius: 2px;
+            box-shadow: 0 0 20px rgba(0, 198, 255, 0.5);
         }}
 
         ul {{
@@ -121,35 +125,32 @@ def generate_html(title, markdown_text):
         }}
 
         li {{
-            font-size: 46px;
-            line-height: 1.6;
-            margin-bottom: 35px;
+            font-size: 42px;
+            line-height: 1.5;
+            margin-bottom: 40px;
             display: flex;
             align-items: flex-start;
-            color: #e0e0e0;
+            color: #cfcfcf;
             font-weight: 400;
-            /* Subtle drop shadow for premium legibility */
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
         }}
 
         .bullet-node {{
-            width: 10px;
-            height: 30px;
+            width: 8px;
+            height: 28px;
             background: #00c6ff;
-            margin-top: 22px;
-            margin-right: 35px;
+            margin-top: 18px;
+            margin-right: 30px;
             flex-shrink: 0;
-            border-radius: 2px;
-            box-shadow: 0 0 15px rgba(0, 198, 255, 0.4);
+            border-radius: 1px;
         }}
     </style>
     </head>
     <body>
-        <div class="main-container">
-            <div class="brand-header">
-                <div class="brand-name">SRINIVAS IAS ACADEMY</div>
-            </div>
-            
+        <div class="sidebar">
+            <div class="brand-name">SRINIVAS IAS ACADEMY</div>
+        </div>
+        
+        <div class="content-area">
             <div class="title">{title}</div>
             <div class="accent-line"></div>
             
