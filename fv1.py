@@ -36,7 +36,7 @@ CRF_VALUE = "20"
 # HTML TEMPLATES
 # ==============================
 
-def generate_content_html(title, markdown_text):
+def get_content_html(title, markdown_text):
     bullets = ""
     for line in markdown_text.split("\n"):
         if line.strip():
