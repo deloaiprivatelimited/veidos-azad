@@ -18,8 +18,8 @@ from playwright.async_api import async_playwright
 BASE_DIR = Path("class 8 part1/chapter1/modules/chunks/audio/m1")
 TIMELINE_FILE = BASE_DIR / "timeline.json"
 
-INTRO_VIDEO = "intro_v0.mp4"
-END_VIDEO = "end_v0.mp4"
+# INTRO_VIDEO = "intro.mp4"
+# END_VIDEO = "end.mp4"
 
 FINAL_OUTPUT = "chapter1_module1_full_fast.mp4"
 
@@ -42,75 +42,12 @@ with open(TIMELINE_FILE, "r", encoding="utf-8") as f:
 # ==============================
 # HTML TEMPLATE
 # ==============================
-def generate_intro_html(chapter_title, module_title):
-    return f"""
-    <html>
-    <head>
-    <meta charset="UTF-8">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Noto+Sans+Kannada:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        body {{
-            margin: 0; padding: 0;
-            width: {WIDTH}px; height: {HEIGHT}px;
-            background-color: #020202;
-            background-image: radial-gradient(circle at 50% 50%, #001a25 0%, #020202 80%);
-            font-family: 'Inter', 'Noto Sans Kannada', sans-serif;
-            color: #ffffff;
-            display: flex; flex-direction: column;
-            align-items: center; justify-content: center;
-            text-align: center;
-        }}
-        .subject-tag {{
-            font-size: 32px;
-            color: #00c6ff;
-            letter-spacing: 2px;
-            margin-bottom: 20px;
-            border: 1px solid #00c6ff;
-            padding: 10px 30px;
-            border-radius: 50px;
-            text-transform: uppercase;
-        }}
-        .chapter-title {{
-            font-size: 84px;
-            font-weight: 800;
-            margin-bottom: 10px;
-            max-width: 1400px;
-            line-height: 1.2;
-        }}
-        .accent-bar {{
-            width: 200px; height: 6px;
-            background: linear-gradient(90deg, transparent, #00c6ff, transparent);
-            margin: 40px 0;
-            box-shadow: 0 0 20px rgba(0, 198, 255, 0.6);
-        }}
-        .module-title {{
-            font-size: 54px;
-            font-weight: 400;
-            color: #cfcfcf;
-            max-width: 1200px;
-        }}
-        .footer-brand {{
-            position: absolute;
-            bottom: 60px;
-            font-size: 20px;
-            letter-spacing: 8px;
-            color: rgba(255,255,255,0.3);
-        }}
-    </style>
-    </head>
-    <body>
-        <div class="subject-tag">8ನೇ ತರಗತಿ ಸಮಾಜ ವಿಜ್ಞಾನ</div>
-        <div class="chapter-title">{chapter_title}</div>
-        <div class="accent-bar"></div>
-        <div class="module-title">{module_title}</div>
-        <div class="footer-brand">SRINIVAS IAS ACADEMY</div>
-    </body>
-    </html>
-    """
+
 def generate_html(title, markdown_text):
     bullets = ""
     for line in markdown_text.split("\n"):
         if line.strip():
+            # Clean up potential markdown characters
             clean_line = line.strip().lstrip('- ').lstrip('* ')
             bullets += f"<li><span class='bullet-node'></span>{clean_line}</li>"
 
@@ -126,61 +63,55 @@ def generate_html(title, markdown_text):
             width: {WIDTH}px;
             height: {HEIGHT}px;
             background-color: #020202;
-            /* Subtle glow behind the content area on the right */
-            background-image: radial-gradient(circle at 80% 50%, #001a25 0%, #020202 70%);
+            /* Subtle dark glow in the bottom right for depth */
+            background-image: radial-gradient(circle at 90% 90%, #001a25 0%, #020202 60%);
             font-family: 'Inter', 'Noto Sans Kannada', sans-serif;
             color: #ffffff;
             display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
             overflow: hidden;
         }}
 
-        /* Left Side: Fixed Branding Pillar */
-        .sidebar {{
-            width: 500px;
-            height: 100%;
+        .main-container {{
+            margin-top: 80px;
+            margin-left: 120px;
+            max-width: 1600px;
+        }}
+
+        /* Left-Aligned Brand */
+        .brand-header {{
             display: flex;
-            align-items: flex-start;
-            padding-left: 80px;
-            padding-top: 100px;
-            border-right: 1px solid rgba(255, 255, 255, 0.05);
+            align-items: center;
+            margin-bottom: 100px;
         }}
 
         .brand-name {{
-            font-size: 24px;
+            font-size: 28px;
             font-weight: 600;
-            letter-spacing: 5px;
+            letter-spacing: 6px;
             color: #00c6ff;
             text-transform: uppercase;
-            border-left: 3px solid #00c6ff;
+            border-left: 4px solid #00c6ff;
             padding-left: 20px;
-            line-height: 1;
         }}
 
-        /* Right Side: Content Area */
-        .content-area {{
-            flex-grow: 1;
-            padding: 100px 100px 100px 80px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }}
-
+        /* Content Section */
         .title {{
-            font-size: 72px;
+            font-size: 82px;
             font-weight: 800;
-            margin-bottom: 25px;
+            margin-bottom: 20px;
             line-height: 1.2;
             color: #ffffff;
-            max-width: 1100px;
+            letter-spacing: -1px;
         }}
 
         .accent-line {{
-            width: 120px;
-            height: 5px;
-            background: #00c6ff;
+            width: 150px;
+            height: 6px;
+            background: linear-gradient(90deg, #00c6ff, transparent);
             margin-bottom: 60px;
-            border-radius: 2px;
-            box-shadow: 0 0 20px rgba(0, 198, 255, 0.5);
+            border-radius: 3px;
         }}
 
         ul {{
@@ -190,32 +121,35 @@ def generate_html(title, markdown_text):
         }}
 
         li {{
-            font-size: 42px;
-            line-height: 1.5;
-            margin-bottom: 40px;
+            font-size: 46px;
+            line-height: 1.6;
+            margin-bottom: 35px;
             display: flex;
             align-items: flex-start;
-            color: #cfcfcf;
+            color: #e0e0e0;
             font-weight: 400;
+            /* Subtle drop shadow for premium legibility */
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
         }}
 
         .bullet-node {{
-            width: 8px;
-            height: 28px;
+            width: 10px;
+            height: 30px;
             background: #00c6ff;
-            margin-top: 18px;
-            margin-right: 30px;
+            margin-top: 22px;
+            margin-right: 35px;
             flex-shrink: 0;
-            border-radius: 1px;
+            border-radius: 2px;
+            box-shadow: 0 0 15px rgba(0, 198, 255, 0.4);
         }}
     </style>
     </head>
     <body>
-        <div class="sidebar">
-            <div class="brand-name">SRINIVAS IAS ACADEMY</div>
-        </div>
-        
-        <div class="content-area">
+        <div class="main-container">
+            <div class="brand-header">
+                <div class="brand-name">SRINIVAS IAS ACADEMY</div>
+            </div>
+            
             <div class="title">{title}</div>
             <div class="accent-line"></div>
             
@@ -291,8 +225,8 @@ for i, segment in enumerate(timeline):
 
     slide_clips.append(clip)
 
-main_video = concatenate_videoclips(slide_clips, method="compose")
-# main_video = concatenate_videoclips(slide_clips)
+# main_video = concatenate_videoclips(slide_clips, method="compose")
+main_video = concatenate_videoclips(slide_clips)
 # ==============================
 # ADD INTRO + END WITH CROSSFADE
 # ==============================
@@ -301,28 +235,28 @@ print("🎞 Adding intro and end...")
 
 fade_duration = 1
 
-intro_clip = VideoFileClip(INTRO_VIDEO).with_fps(FPS)
-end_clip = VideoFileClip(END_VIDEO).with_fps(FPS)
+# intro_clip = VideoFileClip(INTRO_VIDEO).with_fps(FPS)
+# end_clip = VideoFileClip(END_VIDEO).with_fps(FPS)
 
 # Resize only if needed
-if intro_clip.size != main_video.size:
-    intro_clip = intro_clip.resized(main_video.size)
+# if intro_clip.size != main_video.size:
+#     intro_clip = intro_clip.resized(main_video.size)
 
-if end_clip.size != main_video.size:
-    end_clip = end_clip.resized(main_video.size)
+# if end_clip.size != main_video.size:
+#     end_clip = end_clip.resized(main_video.size)
 
-main_video = main_video.with_effects([vfx.CrossFadeIn(fade_duration)])
-end_clip = end_clip.with_effects([vfx.CrossFadeIn(fade_duration)])
-
-final_video = concatenate_videoclips(
-    [intro_clip, main_video, end_clip],
-    method="compose",
-    padding=-fade_duration
-)
-# Optional crossfade at beginning only
 # main_video = main_video.with_effects([vfx.CrossFadeIn(fade_duration)])
+# end_clip = end_clip.with_effects([vfx.CrossFadeIn(fade_duration)])
 
-# final_video = main_video
+# final_video = concatenate_videoclips(
+#     [intro_clip, main_video, end_clip],
+#     method="compose",
+#     padding=-fade_duration
+# )
+# Optional crossfade at beginning only
+main_video = main_video.with_effects([vfx.CrossFadeIn(fade_duration)])
+
+final_video = main_video
 # ==============================
 # FINAL EXPORT (Optimized)
 # ==============================
