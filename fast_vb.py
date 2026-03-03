@@ -18,8 +18,8 @@ from playwright.async_api import async_playwright
 BASE_DIR = Path("class 8 part1/chapter1/modules/chunks/audio/m1")
 TIMELINE_FILE = BASE_DIR / "timeline.json"
 
-INTRO_VIDEO = "intro.mp4"
-END_VIDEO = "end.mp4"
+# INTRO_VIDEO = "intro.mp4"
+# END_VIDEO = "end.mp4"
 
 FINAL_OUTPUT = "chapter1_module1_full_fast.mp4"
 
@@ -29,7 +29,7 @@ SLIDES_DIR.mkdir(exist_ok=True)
 WIDTH = 1920
 HEIGHT = 1080
 FPS = 30
-THREADS = 8   # optimized for 16 vCPU machine
+THREADS =12   # optimized for 16 vCPU machine
 CRF_VALUE = "20"  # 18 = near lossless, 20 = very high quality
 
 # ==============================
@@ -185,8 +185,8 @@ for i, segment in enumerate(timeline):
 
     slide_clips.append(clip)
 
-main_video = concatenate_videoclips(slide_clips, method="compose")
-
+# main_video = concatenate_videoclips(slide_clips, method="compose")
+main_video = concatenate_videoclips(slide_clips)
 # ==============================
 # ADD INTRO + END WITH CROSSFADE
 # ==============================
@@ -195,25 +195,28 @@ print("🎞 Adding intro and end...")
 
 fade_duration = 1
 
-intro_clip = VideoFileClip(INTRO_VIDEO).with_fps(FPS)
-end_clip = VideoFileClip(END_VIDEO).with_fps(FPS)
+# intro_clip = VideoFileClip(INTRO_VIDEO).with_fps(FPS)
+# end_clip = VideoFileClip(END_VIDEO).with_fps(FPS)
 
 # Resize only if needed
-if intro_clip.size != main_video.size:
-    intro_clip = intro_clip.resized(main_video.size)
+# if intro_clip.size != main_video.size:
+#     intro_clip = intro_clip.resized(main_video.size)
 
-if end_clip.size != main_video.size:
-    end_clip = end_clip.resized(main_video.size)
+# if end_clip.size != main_video.size:
+#     end_clip = end_clip.resized(main_video.size)
 
+# main_video = main_video.with_effects([vfx.CrossFadeIn(fade_duration)])
+# end_clip = end_clip.with_effects([vfx.CrossFadeIn(fade_duration)])
+
+# final_video = concatenate_videoclips(
+#     [intro_clip, main_video, end_clip],
+#     method="compose",
+#     padding=-fade_duration
+# )
+# Optional crossfade at beginning only
 main_video = main_video.with_effects([vfx.CrossFadeIn(fade_duration)])
-end_clip = end_clip.with_effects([vfx.CrossFadeIn(fade_duration)])
 
-final_video = concatenate_videoclips(
-    [intro_clip, main_video, end_clip],
-    method="compose",
-    padding=-fade_duration
-)
-
+final_video = main_video
 # ==============================
 # FINAL EXPORT (Optimized)
 # ==============================
@@ -225,7 +228,7 @@ final_video.write_videofile(
     fps=FPS,
     codec="libx264",
     audio_codec="aac",
-    preset="fast",
+    preset="veryfast",
     threads=THREADS,
     ffmpeg_params=["-crf", CRF_VALUE]
 )
